@@ -1,0 +1,74 @@
+.section-hero-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: clamp(37px, 5vw, 70px) auto 0;
+  max-width: 1000px;
+  position: relative;
+}
+
+.section-introduction {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-image {
+  /* width: clamp(150px, 60vw, 830px); */
+  width: clamp(280px, 73vw, 830px);
+  display: inline-flex;
+}
+
+.mpui-section {
+  max-width: 1100px;
+  width: 100%;
+}
+
+.mpui-section.image {
+  width: 100%;
+}
+
+.hero-image.first {
+  margin-left: -17%
+}
+
+.hero-image.second {
+  margin-top: -17%;
+  margin-left: 17%;
+}
+
+.hero-image > img {
+  /* width: clamp(280px, 57vw, 830px); */
+  width: 100%;
+}
+
+.project-tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(10px, 1.15vw, 20px);
+  justify-content: center;
+  margin-top: 37px;
+}
+
+.project-tag-container .tag {
+  background: rgba(0, 0, 0, .04);
+  letter-spacing: -1%;
+  padding: clamp(8px, 1.05vw, 16px) clamp(16px, 1.55vw, 20px);
+}
+
+.column-half {
+  max-width: 690px;
+  width: 100%;
+  margin-right: 50px;
+}
+
+.column-half + .column-half {
+  margin-left: 50px;
+}
+
+.column-half img {
+  width: 100%;
+}
+
+.project-tag-container .body-text + .body-text {
+  margin-top: 0;
+}
