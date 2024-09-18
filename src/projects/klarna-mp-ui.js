@@ -65,10 +65,11 @@ function KlarnaMPUI() {
       <div className="section-title-container margin-center">
         <h1 className="text-large text-center">
           Some components I designed
+          <em> to mitigate inconsistencies, simplify implementations and enable mobile screens.</em>
         </h1>
-        <p className="section-introduction body-text faded">
+        {/* <p className="section-introduction body-text faded">
           To mitigate design inconsistencies and increase quality, I designed and helped implement components that systematized shared needs. This helped product teams achieve a reliable UI faster and functioned as a tool for managing and maintaining interfaces as well as product and brand alignment.
-        </p>
+        </p> */}
       </div>
 
       <section className="row v-spacing-large">
@@ -78,7 +79,7 @@ function KlarnaMPUI() {
       </section>
 
       <section className="row v-spacing-small">
-        <div className="column-6">
+        <div className="column-8 mbp-767-filters-col-1">
           <h1 className="text-large">Filters wrapper</h1>
           <h1 className="faded text-large">A responsive layout system for the unpredictable future.</h1>
           <p className="body-text faded">
@@ -99,11 +100,11 @@ function KlarnaMPUI() {
         </div>
       </section>
 
-      <section className="row v-spacing-large">
-        <div className="column-5">
+      <section className="row v-spacing-large mbp-767">
+        <div className="column-5 mbp-767-dropdowns-col-2">
           <img src={HeroAlignedDropdowns} />
         </div>
-        <div className="column-7">
+        <div className="column-7 mbp-767-dropdowns-col-1">
           <h1 className="text-large">Richer drop-downs.</h1>
           <h1 className="faded text-large">Multiselection and cross-platform support.</h1>
           <p className="body-text faded">
@@ -116,7 +117,7 @@ function KlarnaMPUI() {
       </section>
      
       <section className="row no-gap v-spacing-large">
-        <div className="column-5 custom-offset-5-text">
+        <div className="column-5 custom-offset-5-text mbp-767-custom-offset-5-text mbp-1023-custom-offset-5-text">
           <h1 className="text-large">Decoupled options.</h1>
           <h1 className="faded text-large">A dynamic foundation for the unpredictable.</h1>
           <p className="body-text faded">
@@ -138,20 +139,20 @@ function KlarnaMPUI() {
             This concept was how we finally implemented the component in our component library. It was exciting to have UI design needs inspire a software design pattern that ended up improving our final solution.
           </p>
         </div>
-        <div className="column-7 custom-offset-5-image">
+        <div className="column-7 custom-offset-5-image mbp-767-custom-offset-5-image">
           <img src={HeroDecoupledOptions} />
         </div>
       </section>
       
       <section className="row v-spacing-large">
-        <div className="column-12 custom-offset-6-image">
+        <div className="column-12 custom-offset-6-image custom-offset-image-6-tables">
           <img src={HeroResponsiveTables} className="section-image" />
         </div>
       </section>
 
-      <section className="row v-spacing-small">
-        <div className="column-6"></div>
-        <div className="column-6 custom-offset-6-text">
+      <section className="row v-spacing-small mbp-720">
+        <div className="column-6 mbp-720-col-1"></div>
+        <div className="column-6 mbp-720-col-2 custom-offset-6-text">
           <h1 className="text-large">Responsive tables</h1>
           <h1 className="faded text-large">Plug-and-play through simple defaults, but rich customization.</h1>
           <p className="body-text faded">
@@ -166,8 +167,8 @@ function KlarnaMPUI() {
         </div>
       </section>
 
-      <section className="row v-spacing-large">
-        <div className="column-6">
+      <section className="row v-spacing-large mbp-767">
+        <div className="column-6 mbp-767-inputs-col-1">
           <h1 className="text-large">Enhancing our inputs.</h1>
           <h1 className="faded text-large">Input chips and a consistent footprint.</h1>
           <p className="body-text faded">
@@ -177,7 +178,7 @@ function KlarnaMPUI() {
             Input chips were designed to batch manage users. End-users often had lists of e-mails that they wanted to manage. The Chip input field parses, inline validates and chips the pasted content.
           </p>
         </div>
-        <div className="column-5">
+        <div className="column-5 mbp-767-inputs-col-2">
           <img src={HeroEnhancedInputs} />
         </div>
       </section>
