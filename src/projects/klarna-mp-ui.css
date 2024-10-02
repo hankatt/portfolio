@@ -73,6 +73,14 @@
   margin-top: 0;
 }
 
+.custom-offset-filters-image {
+  max-width: 1000px;
+}
+
+.custom-offset-inputs-image {
+  max-width: 440px;
+}
+
 @media screen and (max-width: 721px) {
 
   .column-6.mbp-col-1-6 {
@@ -124,8 +132,8 @@
   }
 
  .mbp-767-inputs-col-2 {
-    width: 80%;
-    max-width: 360px;
+    max-width: clamp(288px, 47vw, 360px);
+    width: 100%;
   }
 
   .mbp-767-dropdowns-col-1 {

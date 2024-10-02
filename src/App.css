@@ -252,8 +252,37 @@ section > img {
   padding: clamp(25px, 3vw, 60px) 0 0;
 }
 
+.v-spacing-medium {
+  padding: clamp(50px, 5vw, 120px) 0 0;
+}
+
+.section-title-container.v-spacing-large,
 .v-spacing-large {
   padding: clamp(75px, 10vw, 250px) 0 0;
+}
+
+.section-title-container.v-spacing-xlarge,
+.v-spacing-xlarge {
+  padding: clamp(120px, 10vw, 350px) 0 0;
+}
+
+.section-title-container.v-spacing-small-bottom,
+.v-spacing-small-bottom {
+  padding-bottom: clamp(25px, 3vw, 60px);
+}
+
+.section-title-container.v-spacing-medium-bottom,
+.v-spacing-medium-bottom {
+  padding-bottom: clamp(50px, 5vw, 120px);
+}
+
+.section-title-container.v-spacing-large-bottom,
+.v-spacing-large-bottom {
+  padding-bottom: clamp(75px, 10vw, 250px);
+}
+
+.v-spacing-xlarge-bottom {
+  padding-bottom: clamp(120px, 10vw, 350px);
 }
 
 /* Text styles */
@@ -266,9 +295,9 @@ section > img {
 }
 
 .subtitle-text {
-  font-size: clamp(21.33px, 1.75vw, 26.66px);
+  font-size: clamp(21.33px, 1.4vw, 26.66px);
   letter-spacing: -.2px;
-  line-height: clamp(30px, 2.3vw, 35px);
+  line-height: clamp(30px, 2.0vw, 34px);
 }
 
 .eyebrow-text {
@@ -277,6 +306,25 @@ section > img {
   letter-spacing: -.2px;
   line-height: clamp(30px, 2.3vw, 35px);
   margin-bottom: 20px;
+}
+
+.text-large {
+  font-size: clamp(18px, 3vw, 26px);
+  line-height: clamp(25px, 4.2vw, 34px);
+  letter-spacing: -.3px;
+}
+
+
+.text-medium {
+  font-size: clamp(16px, 2vw, 18px);
+  line-height: clamp(23px, 3vw, 26px);
+  letter-spacing: -.2px;
+}
+
+.text-small {
+  font-size: clamp(12px, 1.6vw, 15px);
+  line-height: clamp(18px, 2.66vw, 25px);
+  letter-spacing: -.15px;
 }
 
 .faded {
@@ -293,7 +341,7 @@ em {
     color: rgba(0, 0, 0, .8);
     font-style: normal;
     font-weight: 400;
-    line-height: clamp(21px, 3vw, 25px);
+    line-height: clamp(20px, 2.8vw, 25px);
     text-decoration: none;
 }
 
@@ -545,30 +593,12 @@ nav .navigation-link + .navigation-link {
   /* margin-top: calc(clamp(50px, 13vw, 200px) * -.66); */
 }
 
-.section-highlights > .text-large + .text-medium {
-  margin-top: 29px;
-}
-
-.text-large {
-  font-size: clamp(18px, 2.4vw, 30px);
-  line-height: clamp(24px, 3.1vw, 40px);
-  letter-spacing: -.3px;
+.section-highlights > h1 + .text-medium {
+  margin-top: 15px;
 }
 
 h1 > em {
   opacity: .5;
-}
-
-.text-medium {
-  font-size: clamp(16px, 2vw, 20px);
-  line-height: clamp(24px, 3vw, 30px);
-  letter-spacing: -.2px;
-}
-
-.text-small {
-  font-size: clamp(12px, 1.6vw, 15px);
-  line-height: clamp(18px, 2.66vw, 25px);
-  letter-spacing: -.15px;
 }
 
 .text-center {
@@ -636,11 +666,6 @@ h1 > em {
   margin-bottom: clamp(0px, 3vw, 55px);
   padding-top: 0;
   gap: 15px;
-}
-
-
-.section-title-container + section {
-    padding-top: clamp(75px, 9vw, 180px); 
 }
 
 

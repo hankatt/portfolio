@@ -15,6 +15,11 @@ import { Link } from "react-router-dom";
 function KlarnaMPUI() {
   return (
     <>
+      <section className="row v-spacing-large center">
+        <div className="column-6 text-center">
+          <h1 className="hero-title">Klarna's Merchant Portal</h1>
+        </div>
+      </section>
       <div className="section-hero-container">
         <div className="hero-image first">
           <img src={HeroMPOldImage} />
@@ -39,33 +44,33 @@ function KlarnaMPUI() {
       </div>
       <div className="section-title-container margin-center">
         <p className="section-introduction subtitle-text faded">
-          Merchant Portal helps small- and medium-sized merchants manage their relationship with Klarna. <em>I worked with the overall design direction and a mobile-friendly Design System to serve the responsive web.</em>
+          Merchant Portal helps small- and medium-sized merchants manage their relationship with Klarna. <em>I worked with the overall design direction and a responsive Design System for all devices.</em>
         </p>
       </div>
-      <section className="flex-col">
+      <section className="flex-col v-spacing-large">
         <div className="section-highlights">
-          <h1 className="faded text-large">#innovation #front-end</h1>
-          <h1 className="text-large">
-            Making our own workaround for the missing gap in Flexbox
+          <h1 className="faded subtitle-text">#innovation #front-end</h1>
+          <h1 className="subtitle-text">
+            I implemented gap, before gap came to Flexbox.
           </h1>
           <p className="text-medium faded">
-            We tried implementing our grid in different ways before I settled on Flex, but it came with a gap. It had no logic for managing column gaps. I implemented a workaround that allowed us to make a simple responsive layout framework. About a year later gap came to the Flex layout model in CSS, and we could replace my workaround. I’m proud of this because it confirms that the workarounds I pushed for did fill a legit gap in the industry tooling out there, while we at the same time could provide simple tooling for a year longer than we would’ve otherwise.
+            When engineers implemented responsive designs we noticed they struggled with content that wraps. We wanted something to provide space between elements as they wrap, but at the same time not interfere with the expected rendering. At this point Flex had no way to manage column gaps. I implemented a workaround that allowed us to do this, and about a year later gap came Flex and we could replace my workaround seamlessly. I’m proud of this because it confirms that the workarounds I pushed for did fill a legit gap in the industry tooling, and allowed us to meanwhile provide simpler tooling for a year longer than we would’ve otherwise.
           </p>
         </div>
         <div className="section-highlights lighter flex-end">
-          <h1 className="faded text-large">#innovation #front-end</h1>
-          <h1 className="text-large">
+          <h1 className="faded subtitle-text">#innovation #front-end</h1>
+          <h1 className="subtitle-text">
             Responsive design not based on device but based on @container
           </h1>
           <p className="text-medium faded">
-            Historically responsive design has been rooted in this notion of a mobile device, a tablet device, and a desktop device. I’m arguing that the line between these devices are blurring and it is not meaningful make component design decisions this way, and I’m calling it device-agnostic design™. This is why we implemented a system for our components to just look at the size given to them, regardless of device, and render a layout accordingly. This existed then and exists today in CSS, but browser support was not reliable at the time.
+            Typically responsive design revolves around the mobile, tablet and desktop sizes. I think this line is blurring and it is not optimal to make layout decisions this way. I refer to my approach as device-agnostic design. Using React Context we give our components a way to render based on the space they're given, regardless of device. This exists as @container queries, but browser support then was not sufficient for us.
           </p>
         </div>
       </section>
       <div className="section-title-container margin-center">
         <h1 className="text-large text-center">
-          Some components I designed
-          <em> to mitigate inconsistencies, simplify implementations and enable mobile screens.</em>
+          Dozens of teams working in one portal.
+          <em> Increasing consistency, while rebranding, and make it all responsive. This meant working innovatively with design systems, designers and developers.</em>
         </h1>
         {/* <p className="section-introduction body-text faded">
           To mitigate design inconsistencies and increase quality, I designed and helped implement components that systematized shared needs. This helped product teams achieve a reliable UI faster and functioned as a tool for managing and maintaining interfaces as well as product and brand alignment.
@@ -73,15 +78,15 @@ function KlarnaMPUI() {
       </div>
 
       <section className="row v-spacing-large">
-        <div className="column-12">
+        <div className="column-12 custom-offset-filters-image">
           <img src={HeroFiltersWrapper} className="section-image" />
         </div>
       </section>
 
-      <section className="row v-spacing-small">
-        <div className="column-8 mbp-767-filters-col-1">
-          <h1 className="text-large">Filters wrapper</h1>
-          <h1 className="faded text-large">A responsive layout system for the unpredictable future.</h1>
+      <section className="row v-spacing-small v-spacing-medium-bottom">
+        <div className="column-6 mbp-767-filters-col-1">
+          <h1 className="text-large">Filters, consistently, everywhere.</h1>
+          <h1 className="faded text-large">The most core of functionalities, responsive.</h1>
           <p className="body-text faded">
             This component is different in the sense that it is more of a layout manager than a typical UI component that handles user interaction. The Filters wrapper provides behaviour and customization so that developers easily can achieve the designs designers have in their disposal toolbox.
           </p>
@@ -105,18 +110,18 @@ function KlarnaMPUI() {
           <img src={HeroAlignedDropdowns} />
         </div>
         <div className="column-7 mbp-767-dropdowns-col-1">
-          <h1 className="text-large">Richer drop-downs.</h1>
+          <h1 className="text-large">Drop-downs, beyond native.</h1>
           <h1 className="faded text-large">Multiselection and cross-platform support.</h1>
           <p className="body-text faded">
-            For a long time we relied on native dropdowns to avoid the risk of issues that comes with replacing something native. For example, it was important to maintain the keyboard-navigation support we’ve had since the start.
+            We were particularly cautious with these to avoid issues, since we were replacing native functionality. One significant accessibility effort was ensuring that keyboard-navigation remained intact.
           </p>
           <p className="body-text faded">
-            But user needs such as multi-selection, searching amongst existing filters and select all outgrow the capabilities of the default selector. The new options panel is flexible in the presentation of options while maintaining functionality for on all devices.
+            User needs like multi-selection, searching among options, select all, are all examples of why we had to move beyond the native dropdowns.
           </p>
         </div>
       </section>
      
-      <section className="row no-gap v-spacing-large">
+      <section className="row no-gap v-spacing-large v-spacing-small-bottom">
         <div className="column-5 custom-offset-5-text mbp-767-custom-offset-5-text mbp-1023-custom-offset-5-text">
           <h1 className="text-large">Decoupled options.</h1>
           <h1 className="faded text-large">A dynamic foundation for the unpredictable.</h1>
@@ -144,7 +149,7 @@ function KlarnaMPUI() {
         </div>
       </section>
       
-      <section className="row v-spacing-large">
+      <section className="row v-spacing-xlarge">
         <div className="column-12 custom-offset-6-image custom-offset-image-6-tables">
           <img src={HeroResponsiveTables} className="section-image" />
         </div>
@@ -178,12 +183,16 @@ function KlarnaMPUI() {
             Input chips were designed to batch manage users. End-users often had lists of e-mails that they wanted to manage. The Chip input field parses, inline validates and chips the pasted content.
           </p>
         </div>
-        <div className="column-5 mbp-767-inputs-col-2">
-          <img src={HeroEnhancedInputs} />
+        <div className="column-6 mbp-767-inputs-col-2">
+          <img src={HeroEnhancedInputs} className="custom-offset-inputs-image" />
         </div>
       </section>
-
-      <section className="row v-spacing-large">
+      <div className="section-title-container margin-center v-spacing-xlarge">
+        <p className="section-introduction subtitle-text faded">
+          <em>What could have been?</em><br/>Before leaving I refined some of the ideas I never had time to pursue.
+        </p>
+      </div>
+      <section className="row v-spacing-medium v-spacing-large-bottom">
         <div className='column-12'>
           <img src={HeroNextStep} />
         </div>
