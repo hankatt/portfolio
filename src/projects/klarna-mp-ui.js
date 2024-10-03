@@ -82,7 +82,7 @@ function KlarnaMPUI() {
       </section>
       <div className="section-title-container margin-center">
         <p className="section-introduction subtitle-text faded">
-          <em>Below is a selection of the most impactful componentizations.</em >It's based on where we saw teams struggle, what was interacted with mostly, and involved the biggest room for interpretation.
+          <em>Below is a selection of the most impactful componentizations.</em> It's based on where we saw teams struggle, what was interacted with mostly, and involved the biggest room for interpretation.
         </p>
       </div>
       <section className="row v-spacing-large">
