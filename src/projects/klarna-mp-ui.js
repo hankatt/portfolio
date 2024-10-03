@@ -149,7 +149,7 @@ function KlarnaMPUI() {
         </div>
       </section>
       
-      <section className="row v-spacing-xlarge">
+      <section className="row v-spacing-large">
         <div className="column-12 custom-offset-6-image custom-offset-image-6-tables">
           <img src={HeroResponsiveTables} className="section-image" />
         </div>
@@ -172,7 +172,7 @@ function KlarnaMPUI() {
         </div>
       </section>
 
-      <section className="row v-spacing-large mbp-767">
+      <section className="row v-spacing-xlarge mbp-767">
         <div className="column-6 mbp-767-inputs-col-1">
           <h1 className="text-large">Enhancing our inputs.</h1>
           <h1 className="faded text-large">Input chips and a consistent footprint.</h1>
