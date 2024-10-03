@@ -23,7 +23,7 @@ function KlarnaMPUI() {
           </p>
         </div>
       </section>
-      <div className="section-hero-container">
+      <div className="section-hero-container v-spacing-small">
         <div className="hero-image first">
           <img src={HeroMPOldImage} />
         </div>
