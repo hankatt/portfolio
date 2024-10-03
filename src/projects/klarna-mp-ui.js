@@ -16,9 +16,9 @@ function KlarnaMPUI() {
   return (
     <>
       <section className="row v-spacing-large center">
-        <div className="column-6 text-center">
+        <div className="column-12 text-center align-center">
           <h1 className="hero-title">Merchant Portal</h1>
-          <p className="text-medium faded">
+          <p className="text-medium faded" style={{'max-width': '500px'}}>
             Merchant Portal helps small- and medium-sized merchants manage their relationship with Klarna. <em>When I left I had worked with the overall design direction and led its responsive Design System for two years.</em>
           </p>
         </div>
