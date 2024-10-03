@@ -41,6 +41,10 @@
   width: 100%;
 }
 
+.hero-title + p {
+  margin-top: clamp(10px, 1vw, 30px);
+}
+
 .project-tag-container {
   display: flex;
   flex-wrap: wrap;

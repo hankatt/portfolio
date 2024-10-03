@@ -17,7 +17,10 @@ function KlarnaMPUI() {
     <>
       <section className="row v-spacing-large center">
         <div className="column-6 text-center">
-          <h1 className="hero-title">Klarna's Merchant Portal</h1>
+          <h1 className="hero-title">Merchant Portal</h1>
+          <p className="text-medium faded">
+            Merchant Portal helps small- and medium-sized merchants manage their relationship with Klarna. <em>When I left I had worked with the overall design direction and led its responsive Design System for two years.</em>
+          </p>
         </div>
       </section>
       <div className="section-hero-container">
@@ -42,10 +45,20 @@ function KlarnaMPUI() {
           Documentation
         </p>
       </div>
-      <div className="section-title-container margin-center">
+      {/* <div className="section-title-container margin-center">
         <p className="section-introduction subtitle-text faded">
-          Merchant Portal helps small- and medium-sized merchants manage their relationship with Klarna. <em>I worked with the overall design direction and a responsive Design System for all devices.</em>
+          When I started it was a basic order management tool. <em>I soon got to lead a huge product discovery effort to define and design a vision for it.</em> And over the years I had the privilege to realize a lot of it.
         </p>
+      </div> */}
+      <div className="section-title-container margin-center">
+        <p className="text-small faded text-center medium-eyebrow-spacing">Mission</p>
+        <h1 className="text-large text-center">
+          Dozens of teams publish their product in the portal.
+          <em> To enable consistency, a smooth rebranding and a responsive design we worked innovatively with design systems, together with designers and developers across all the teams.</em>
+        </h1>
+        {/* <p className="section-introduction body-text faded">
+          To mitigate design inconsistencies and increase quality, I designed and helped implement components that systematized shared needs. This helped product teams achieve a reliable UI faster and functioned as a tool for managing and maintaining interfaces as well as product and brand alignment.
+        </p> */}
       </div>
       <section className="flex-col v-spacing-large">
         <div className="section-highlights">
@@ -68,21 +81,15 @@ function KlarnaMPUI() {
         </div>
       </section>
       <div className="section-title-container margin-center">
-        <h1 className="text-large text-center">
-          Dozens of teams working in one portal.
-          <em> Increasing consistency, while rebranding, and make it all responsive. This meant working innovatively with design systems, designers and developers.</em>
-        </h1>
-        {/* <p className="section-introduction body-text faded">
-          To mitigate design inconsistencies and increase quality, I designed and helped implement components that systematized shared needs. This helped product teams achieve a reliable UI faster and functioned as a tool for managing and maintaining interfaces as well as product and brand alignment.
-        </p> */}
+        <p className="section-introduction subtitle-text faded">
+          Below is a selection of the most impactful componentizations. <em>It's based on where we saw teams struggle, what was interacted with mostly, and involved the biggest room for interpretation.</em>
+        </p>
       </div>
-
       <section className="row v-spacing-large">
         <div className="column-12 custom-offset-filters-image">
           <img src={HeroFiltersWrapper} className="section-image" />
         </div>
       </section>
-
       <section className="row v-spacing-small v-spacing-medium-bottom">
         <div className="column-6 mbp-767-filters-col-1">
           <h1 className="text-large">Filters, consistently, everywhere.</h1>
@@ -187,12 +194,18 @@ function KlarnaMPUI() {
           <img src={HeroEnhancedInputs} className="custom-offset-inputs-image" />
         </div>
       </section>
-      <div className="section-title-container margin-center v-spacing-xlarge">
+      <div className="section-title-container margin-center">
+        <p className="text-small faded text-center medium-eyebrow-spacing">Final words</p>
         <p className="section-introduction subtitle-text faded">
-          <em>What could have been?</em><br/>Before leaving I refined some of the ideas I never had time to pursue.
+          <em>An insane amount of love went in to the shell of the portal and the grid it builds upon.</em> The grid is actually fundamental to our responsive components and modules. It allowed us to do @container queries before container queries were widely supported.
         </p>
       </div>
-      <section className="row v-spacing-medium v-spacing-large-bottom">
+      <div className="section-title-container margin-center v-spacing-xlarge">
+        <p className="section-introduction eyebrow-text faded">
+          <em>A glimpse of the future.</em>
+        </p>
+      </div>
+      <section className="row v-spacing-small v-spacing-large-bottom">
         <div className='column-12'>
           <img src={HeroNextStep} />
         </div>

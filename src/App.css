@@ -309,6 +309,11 @@ section > img {
   margin-bottom: 20px;
 }
 
+.medium-eyebrow-spacing {
+  margin-bottom: 10px;
+  letter-spacing: clamp(.5px, .2vw, 1.5px) !important;
+}
+
 .text-large {
   font-size: clamp(18px, 3vw, 26px);
   line-height: clamp(25px, 4.2vw, 34px);
