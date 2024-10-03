@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 function KlarnaMPUI() {
   return (
     <>
-      <section className="row v-spacing-large center">
+      <section className="row v-spacing-medium center">
         <div className="column-12 text-center align-center">
           <h1 className="hero-title">Merchant Portal</h1>
           <p className="text-medium faded" style={{'max-width': '500px'}}>
