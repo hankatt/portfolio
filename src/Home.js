@@ -18,7 +18,7 @@ function Home() {
             </div>
             */}
             <div className="values-message">
-              <h1 className="hero-title">product design & design systems.<br/>for companies in all stages.</h1>
+              <h1 className="hero-title">product design & design systems<br/>for companies in all stages.</h1>
             </div>
           </div>
         </div>

@@ -17,10 +17,9 @@ function KlarnaMPUI() {
     <>
       <section className="row v-spacing-medium center">
         <div className="column-12 text-center align-center">
-          <h1 className="hero-title">Merchant Portal</h1>
-          <p className="text-medium faded" style={{'max-width': '500px'}}>
-            Merchant Portal helps small- and medium-sized merchants manage their relationship with Klarna. <em>When I left I had worked with the overall design direction and led its responsive Design System for two years.</em>
-          </p>
+          <h1 className="hero-title">
+            Merchant Portal helps merchants manage their relationship with Klarna. <em>I set the design direction and led its responsive Design System.</em>
+          </h1>
         </div>
       </section>
       <div className="section-hero-container v-spacing-small">
@@ -95,20 +94,11 @@ function KlarnaMPUI() {
           <h1 className="text-large">Filters, consistently, everywhere.</h1>
           <h1 className="faded text-large">The most core of functionalities, responsive.</h1>
           <p className="body-text faded">
-            This component is different in the sense that it is more of a layout manager than a typical UI component that handles user interaction. The Filters wrapper provides behaviour and customization so that developers easily can achieve the designs designers have in their disposal toolbox.
+            This component is different in the sense that it is more of a responsive wrapper than a typical UI component. It comes with all the bells and whistles developers need to easily realize designs handed off to them.
           </p>
-          <p className="body-text faded">
-            The wrapper enables an array of modes to manage all kinds of responsive behaviour, but defaults to the horizontal filters row and collapses to a single button when the filters no longer fit.
-          </p>
-          <p className="body-text faded">
-            The vertical mode used in for example the pop-out to the right on the tablet also enables side-by-side layouts on desktop.
-          </p>
-          <p className="body-text faded">
-            The collapsing of all filter options into a Filters button is customizable to be triggered at any given width or breakpoint.
-          </p>
-          <p className="body-text faded"> 
-            The mobile layout reuses the pop-out from the tablet but snaps it to the bottom of the screen and limits its height to a default value with the option to override. It’s capped to maintain the visibility of tapped elements.
-          </p>
+          {/* <p className="body-text faded">
+            It comes with a couple of variants to manage all kinds of responsive behaviour.
+          </p> */}
         </div>
       </section>
 
@@ -120,10 +110,10 @@ function KlarnaMPUI() {
           <h1 className="text-large">Drop-downs, beyond native.</h1>
           <h1 className="faded text-large">Multiselection and cross-platform support.</h1>
           <p className="body-text faded">
-            We were particularly cautious with these to avoid issues, since we were replacing native functionality. One significant accessibility effort was ensuring that keyboard-navigation remained intact.
+            These replace native dropdowns and needless to say we were cautious in introducing them, since it's safer to rely on browser/OS defaults. One significant accessibility effort was ensuring that keyboard-navigation remained intact.
           </p>
           <p className="body-text faded">
-            User needs like multi-selection, searching among options, select all, are all examples of why we had to move beyond the native dropdowns.
+            But to better serve the merchants we had to add functionality like multi-select, searching the options, select all, they were all long awaited.
           </p>
         </div>
       </section>
