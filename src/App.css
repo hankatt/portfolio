@@ -24,7 +24,6 @@ h1, h2, h3, h4, h5, h6 {
   html,
   body {
     font-size: 18px;
-    background-color: #F6F5F3;
     font-family: 'Univers LT 45 Light', sans-serif;
     height: 100%;
   }
@@ -140,6 +139,11 @@ section > img {
 
 .flex-end {
   align-self: end;
+}
+
+.justify-right {
+  justify-self: right;
+  display: flex;
 }
 
 .spaceBetween {
@@ -296,9 +300,9 @@ section > img {
 }
 
 .subtitle-text {
-  font-size: clamp(21.33px, 1.4vw, 26.66px);
+  font-size: clamp(21.33px, 2.6vw, 26.66px);
   letter-spacing: -.2px;
-  line-height: clamp(30px, 2.0vw, 34px);
+  line-height: clamp(28px, 3.6vw, 38px);
 }
 
 .eyebrow-text {
@@ -340,6 +344,15 @@ section > img {
 em {
   color: rgba(0, 0, 0, 1);
   font-style: normal;
+}
+
+ul {
+  margin-inline-start: 1em;
+}
+
+ul,
+ul li + li {
+  margin-top: clamp(3px, 0.5vw, 8px);
 }
 
 .body-text,
@@ -599,8 +612,12 @@ nav .navigation-link + .navigation-link {
   /* margin-top: calc(clamp(50px, 13vw, 200px) * -.66); */
 }
 
-.section-highlights > h1 + .text-medium {
-  margin-top: 15px;
+.section-highlights > h1 + .text-medium,
+.section-highlights > .text-medium + .text-medium,
+.text-large + .text-medium,
+.text-medium + .text-medium
+{
+  margin-top: clamp(7px, 1.7vw, 10px);
 }
 
 h1 > em {

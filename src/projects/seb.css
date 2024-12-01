@@ -2,3 +2,67 @@
   font-family: 'Univers LT 93 ExtraBlackEx', sans-serif;
 
 } */
+
+body:has(#seb) {
+  background: black;
+  height: auto;
+}
+
+#seb .mega-title,
+#seb .text-large > em,
+#seb .subtitle-text > em {
+  color: rgba(255, 255, 255, 1);
+}
+
+#seb .text-large,
+#seb .text-medium,
+#seb .faded,
+#seb .subtitle-text {
+  color: rgba(255, 255, 255, .6);
+}
+
+#seb .section-highlights {
+  background: rgba(255, 255, 255, .08);
+}
+
+#seb .section-highlights.lighter {
+  background: rgba(255, 255, 255, .11);
+}
+
+.mega-title {
+  font-size: clamp(32px, calc(20px + 3vw), 64px);
+  letter-spacing: -.25px;
+}
+
+.project-title-container {
+  margin-top: 150px;
+}
+
+.project-title {
+  font-size: 56px;
+}
+
+.project-description {
+  gap: clamp(8px, 1.35vw, 18px);
+}
+
+@media screen and (max-width: 1023px) {
+  /* Tablet interpretation of column widths */
+  .column-6 {
+    width: 66.67%;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  /* Tablet interpretation of column widths */
+  .column-6 {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Tablet interpretation of column widths */
+  .column-6 {
+    width: 100%;
+  }
+}
