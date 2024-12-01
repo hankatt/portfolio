@@ -25,7 +25,7 @@ function Seb() {
             </section>
         </div>
         <div class="v-spacing-large">
-          <div class="column-9">
+          <div class="hero-image">
             <img src={HeroImage} />
           </div>
         </div>

@@ -10,7 +10,9 @@ body:has(#seb) {
 
 #seb .mega-title,
 #seb .text-large > em,
-#seb .subtitle-text > em {
+#seb .text-medium > em,
+#seb .subtitle-text > em
+{
   color: rgba(255, 255, 255, 1);
 }
 
@@ -44,6 +46,11 @@ body:has(#seb) {
 
 .project-description {
   gap: clamp(8px, 1.35vw, 18px);
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 1057px;
 }
 
 @media screen and (max-width: 1023px) {
