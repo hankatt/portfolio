@@ -3,6 +3,7 @@ import './seb.css';
 import HeroImage from '../img/case-seb-hero-1.png'
 import DiscoveryTabImageDM from '../img/case-seb-discovery-tab-dm.png'
 import DiscoveryTabImageLM from '../img/case-seb-discovery-tab-lm.png'
+import MoreTabHeroDM from '../img/case-seb-more-tab-hero-dm.png'
 import {
   Link
 } from "react-router-dom";
@@ -13,7 +14,7 @@ function Seb() {
       <div id="seb">
         <div className="project-title-container">
             <h1 className="mega-title">SEB</h1>
-            <section class="project-description v-spacing-medium column-6 justify-right">
+            <section class="project-description v-spacing-medium column-6 responsive-resize justify-right">
               <h2 class="text-large">
                 <em>Skandinaviska Enskilda Banken is one of the leading banks
                 in the Nordics region.</em> On behalf of Bontouch I worked in a 
@@ -85,7 +86,7 @@ function Seb() {
           </div>
         </section>
         <div class="v-spacing-large">
-          <div class="column-6 justify-right">
+          <div class="column-6 justify-right responsive-resize">
             <h2 class="text-large">
               <em>My role was twofold. </em>
               In my product team I did explorations and visions for challenging
@@ -98,7 +99,7 @@ function Seb() {
           </div>
         </div>
         <div class="v-spacing-large">
-          <div class="column-6">
+          <div class="column-6 responsive-resize">
             <h2 class="text-large">
               <em>Team building<br/></em>
               Onboarding, retros, goals, skill mapping, end-of-year ceremony
@@ -118,7 +119,7 @@ function Seb() {
           </div>
         </div>
         <div class="v-spacing-large">
-          <div class="column-6 justify-right">
+          <div class="column-6 justify-right responsive-resize">
             <h2 class="text-large">
               <em>Cross functional collaboration.<br/></em>
               Across competences, across employers.
@@ -141,28 +142,45 @@ function Seb() {
         </div>
         <div class="v-spacing-large flex spaceBetween">
           <div class="column-4 v-spacing-medium" style={{"min-width": 360 }}>
-            <div class="column-11">
-              <h2 class="text-large">
-                <em>Discovery tab.<br /></em>
-                New ways to present and work with content.
-              </h2>
-              <p className="text-medium">
-                <ul>
-                  <li>
-                    Lots of knowledge
-                  </li>
-                  <li>
-                    With banking digitizing more and more, the personal opportunity to build a relationship is gone but not less important
-                  </li>
-                  <li>
-                    In a digital world relationships are more transactional.
-                  </li>
-                </ul>
-              </p>
-            </div>
+            <h2 class="text-large">
+              <em>Discovery tab.<br /></em>
+              New ways to present and work with content.
+            </h2>
+            <p className="text-medium">
+              <ul>
+                <li>
+                  Lots of knowledge
+                </li>
+                <li>
+                  With banking digitizing more and more, the personal opportunity to build a relationship is gone but not less important
+                </li>
+                <li>
+                  In a digital world relationships are more transactional.
+                </li>
+              </ul>
+            </p>
           </div>
           <div class="column-8" style={{"min-width": 640 }}>
             <img src={DiscoveryTabImageDM} />
+          </div>
+        </div>
+        <div class="v-spacing-large flex spaceBetween">
+          <div class="column-6">
+            <div class="gradient-container">
+              <p className="text-small">More tab after merge</p>
+              <div class="column-8">
+                <img src={MoreTabHeroDM} />
+              </div>
+            </div>
+          </div>
+          <div class="column-5 v-spacing-large">
+            <h2 class="text-xlarge">
+              <em>More tab.<br /></em>
+              Merging two tabs into one.
+            </h2>
+            <p className="text-medium">
+              The previous Tools and Support tabs both served as homes for various sporadically used features. There was a lack of strategy and holistic considerations behind what actually went in them. The new tab was made possible through moving features to more contextual homes and improving clarity for what was left.
+            </p>
           </div>
         </div>
       </div>
