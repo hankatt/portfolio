@@ -170,6 +170,30 @@ section > img {
   gap: 100px;
 }
 
+.gap-medium {
+  gap: clamp(20px, 2.8vw, 25px);
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
+}
+
+.order-4 {
+  order: 4;
+}
+
+.order-5 {
+  order: 5;
+}
+
 .column-1,
 .column-2,
 .column-3,
@@ -620,7 +644,9 @@ nav .navigation-link + .navigation-link {
 .section-highlights > h1 + .text-medium,
 .section-highlights > .text-medium + .text-medium,
 .text-large + .text-medium,
-.text-medium + .text-medium
+.text-medium + .text-medium,
+.text-large + .text-small,
+.text-medium + .text-small
 {
   margin-top: clamp(7px, 1.7vw, 10px);
 }

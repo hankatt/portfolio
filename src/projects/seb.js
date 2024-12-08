@@ -4,6 +4,8 @@ import HeroImage from '../img/case-seb-hero-1.png'
 import DiscoveryTabImageDM from '../img/case-seb-discovery-tab-dm.png'
 import DiscoveryTabImageLM from '../img/case-seb-discovery-tab-lm.png'
 import MoreTabHeroDM from '../img/case-seb-more-tab-hero-dm.png'
+import MoreTabToolsDM from '../img/case-seb-more-tab-tab-1-tools-dm.png'
+import MoreTabSupportDM from '../img/case-seb-more-tab-tab-1-support-dm.png'
 import {
   Link
 } from "react-router-dom";
@@ -164,16 +166,8 @@ function Seb() {
             <img src={DiscoveryTabImageDM} />
           </div>
         </div>
-        <div class="v-spacing-large flex spaceBetween">
-          <div class="column-6">
-            <div class="gradient-container">
-              <p className="text-small">More tab after merge</p>
-              <div class="column-8">
-                <img src={MoreTabHeroDM} />
-              </div>
-            </div>
-          </div>
-          <div class="column-5 v-spacing-large">
+        <div class="v-spacing-large flex wrap spaceBetween more-tab">
+          <div class="column-5 v-spacing-large order-2 more-tab-col-1">
             <h2 class="text-xlarge">
               <em>More tab.<br /></em>
               Merging two tabs into one.
@@ -181,6 +175,55 @@ function Seb() {
             <p className="text-medium">
               The previous Tools and Support tabs both served as homes for various sporadically used features. There was a lack of strategy and holistic considerations behind what actually went in them. The new tab was made possible through moving features to more contextual homes and improving clarity for what was left.
             </p>
+          </div>
+          <div class="column-5 order-1 more-tab-col-2">
+            <div class="gradient-container">
+              {/* <p className="text-small">More tab after merge</p> */}
+              <div class="text-center">
+                <h2 class="text-small">
+                  <em>The new tab<br /></em>
+                  With clearer sections
+                </h2>
+              </div>
+              <div class="column-8">
+                <img src={MoreTabHeroDM} />
+              </div>
+            </div>
+          </div>
+          <div class="column-4 v-spacing-large order-3 more-tab-col-3">
+            <div>
+              <h2 class="text-medium">
+                <em>The starting point<br /></em>
+                Tools and Support listed a lot of mixed functionality and the idea of merging felt unreasonable at first.
+              </h2>
+              <p className="text-small">
+                To tackle that we wanted deliberate groupings that we could put a title on, and we wanted to move out functionality to more contextual locations.
+              </p>
+              <p className="text-small">
+                To evaluate the impact of our decisions we leveraged customer support, reviews, analytics, interviews.
+              </p>
+              <p className="text-small">
+                We also considered more long-term product ambitions to make sure some of the structural changes we made would help evolve the product down-the-line, and help customers understand the product’s evolution.
+              </p>
+            </div>
+          </div>
+          <div class="column-3 gap-medium v-spacing-large order-4 more-tab-col-4">
+            <div class="text-center">
+              <h2 class="text-small">
+                <em>Tools tab pre merge<br /></em>
+                4 new features moved out
+              </h2>
+            </div>
+            <img src={MoreTabToolsDM} />
+          </div>
+          <div class="column-3 gap-medium v-spacing-large order-5 more-tab-col-5">
+            <div class="text-center">
+              <h2 class="text-small">
+                <em>Support tab pre merge<br /></em>
+                No features moved
+              </h2>
+            </div>
+            <img src={MoreTabSupportDM} />
           </div>
         </div>
       </div>
