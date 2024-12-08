@@ -12,6 +12,10 @@ body:has(#seb) {
   margin-left: clamp(32px, calc(10px + 3vw), 64px);
 }
 
+.no-col-space [class^="column-"] + [class^="column-"] {
+  margin-left: 0;
+}
+
 #seb .mega-title,
 #seb .text-large > em,
 #seb .text-medium > em,
@@ -90,6 +94,10 @@ body:has(#seb) {
   display: none; 
 }
 
+.scroll-gallery {
+  display: none;
+}
+
 @media screen and (max-width: 1023px) {
   /* Tablet interpretation of column widths */
   .column-6.responsive-resize {
@@ -156,6 +164,12 @@ body:has(#seb) {
     max-width: 480px;
   }
 
+  .more-tab-col-2,
+  .more-tab-col-4,
+  .more-tab-col-5 {
+    display: none;
+  }
+
   .gradient-container {
     padding: 24px 30px 0;
     border-radius: 20px;
@@ -167,6 +181,26 @@ body:has(#seb) {
 
   .gradient-container div.text-center {
     display: block;
+  }
+
+  .scroll-gallery {
+    overflow-x: scroll;
+    display: flex;
+  }
+
+  .scroll-gallery .more-tab-col-2,
+  .scroll-gallery .more-tab-col-4,
+  .scroll-gallery .more-tab-col-5 {
+    display: flex;
+  }
+
+  .scroll-gallery .more-tab-col-2 {
+    min-width: 300px;
+  }
+
+  .scroll-gallery .more-tab-col-4,
+  .scroll-gallery .more-tab-col-5 {
+    min-width: 227px;
   }
 
   [class^="column-"] + [class^="column-"] {

@@ -142,8 +142,8 @@ function Seb() {
             </p>
           </div>
         </div>
-        <div class="v-spacing-large flex spaceBetween">
-          <div class="column-4 v-spacing-medium" style={{"min-width": 360 }}>
+        <div class="v-spacing-large flex gap-large spaceBetween no-col-space">
+          <div class="column-5 v-spacing-medium" style={{"min-width": 360 }}>
             <h2 class="text-large">
               <em>Discovery tab.<br /></em>
               New ways to present and work with content.
@@ -162,7 +162,7 @@ function Seb() {
               </ul>
             </p>
           </div>
-          <div class="column-8" style={{"min-width": 640 }}>
+          <div class="column-9" style={{"min-width": 640 }}>
             <img src={DiscoveryTabImageDM} />
           </div>
         </div>
@@ -176,6 +176,40 @@ function Seb() {
               The previous Tools and Support tabs both served as homes for various sporadically used features. There was a lack of strategy and holistic considerations behind what actually went in them. The new tab was made possible through moving features to more contextual homes and improving clarity for what was left.
             </p>
           </div>
+          <section class="scroll-gallery spaceBetween gap-large order-2">
+            <div class="column-5 order-1 more-tab-col-2">
+                <div class="gradient-container">
+                  {/* <p className="text-small">More tab after merge</p> */}
+                  <div class="text-center">
+                    <h2 class="text-small">
+                      <em>The new tab<br /></em>
+                      With clearer sections
+                    </h2>
+                  </div>
+                  <div class="column-8">
+                    <img src={MoreTabHeroDM} />
+                  </div>
+                </div>
+              </div>
+              <div class="column-3 gap-medium v-spacing-large order-4 more-tab-col-4">
+              <div class="text-center">
+                <h2 class="text-small">
+                  <em>Tools tab pre merge<br /></em>
+                  4 new features moved out
+                </h2>
+              </div>
+              <img src={MoreTabToolsDM} />
+            </div>
+            <div class="column-3 gap-medium v-spacing-large order-5 more-tab-col-5">
+              <div class="text-center">
+                <h2 class="text-small">
+                  <em>Support tab pre merge<br /></em>
+                  No features moved
+                </h2>
+              </div>
+              <img src={MoreTabSupportDM} />
+            </div>
+        </section>
           <div class="column-5 order-1 more-tab-col-2">
             <div class="gradient-container">
               {/* <p className="text-small">More tab after merge</p> */}
@@ -226,6 +260,39 @@ function Seb() {
             <img src={MoreTabSupportDM} />
           </div>
         </div>
+        {/* <section class="scroll-gallery spaceBetween gap-large">
+          <div class="column-5 order-1 more-tab-col-2">
+            <div class="gradient-container">
+              <div class="text-center">
+                <h2 class="text-small">
+                  <em>The new tab<br /></em>
+                  With clearer sections
+                </h2>
+              </div>
+              <div class="column-8">
+                <img src={MoreTabHeroDM} />
+              </div>
+            </div>
+          </div>
+          <div class="column-3 gap-medium v-spacing-large order-4 more-tab-col-4">
+              <div class="text-center">
+                <h2 class="text-small">
+                  <em>Tools tab pre merge<br /></em>
+                  4 new features moved out
+                </h2>
+              </div>
+              <img src={MoreTabToolsDM} />
+            </div>
+            <div class="column-3 gap-medium v-spacing-large order-5 more-tab-col-5">
+              <div class="text-center">
+                <h2 class="text-small">
+                  <em>Support tab pre merge<br /></em>
+                  No features moved
+                </h2>
+              </div>
+              <img src={MoreTabSupportDM} />
+            </div>
+        </section> */}
       </div>
     </>
   );

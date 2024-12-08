@@ -123,6 +123,10 @@ h1, h2, h3, h4, h5, h6 {
   gap: 10px;
 }
 
+.scroll-gallery {
+  overflow-x: scroll;
+}
+
 .flex,
 #header,
 section {
@@ -172,6 +176,14 @@ section > img {
 
 .gap-medium {
   gap: clamp(20px, 2.8vw, 25px);
+}
+
+.gap-large {
+  gap: clamp(40px, 3.4vw, 70px);
+}
+
+.gap-xlarge {
+  gap: clamp(70px, 5vw, 90px);
 }
 
 .order-1 {
