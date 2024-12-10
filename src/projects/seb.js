@@ -143,7 +143,7 @@ function Seb() {
           </div>
         </div>
         <div class="v-spacing-large flex gap-large spaceBetween no-col-space">
-          <div class="column-5 v-spacing-medium" style={{"min-width": 360 }}>
+          <div class="column-5 v-spacing-medium center" style={{ "min-width": 360, "padding-bottom": 40 }}>
             <h2 class="text-large">
               <em>Discovery tab.<br /></em>
               New ways to present and work with content.
@@ -166,7 +166,7 @@ function Seb() {
             <img src={DiscoveryTabImageDM} />
           </div>
         </div>
-        <div class="v-spacing-large flex wrap spaceBetween more-tab">
+        <div class="v-spacing-large flex wrap spaceEvenly more-tab">
           <div class="column-5 v-spacing-large order-2 more-tab-col-1">
             <h2 class="text-xlarge">
               <em>More tab.<br /></em>
@@ -219,7 +219,7 @@ function Seb() {
                   With clearer sections
                 </h2>
               </div>
-              <div class="column-8">
+              <div class="column-8" style={{ "position": "relative", "top": "calc(-2* clamp(30px, 7vw, 100px))" }}>
                 <img src={MoreTabHeroDM} />
               </div>
             </div>

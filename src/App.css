@@ -154,6 +154,10 @@ section > img {
     justify-content: space-between;
 }
 
+.spaceEvenly {
+  justify-content: space-evenly;
+}
+
 .wrap {
     flex-wrap: wrap;
 }
