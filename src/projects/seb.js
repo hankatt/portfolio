@@ -166,7 +166,7 @@ function Seb() {
             <img src={DiscoveryTabImageDM} />
           </div>
         </div>
-        <div class="v-spacing-large flex wrap spaceEvenly more-tab">
+        <div class="v-spacing-xlarge flex wrap spaceEvenly more-tab">
           <div class="column-5 v-spacing-large order-2 more-tab-col-1">
             <h2 class="text-xlarge">
               <em>More tab.<br /></em>
@@ -219,12 +219,12 @@ function Seb() {
                   With clearer sections
                 </h2>
               </div>
-              <div class="column-8" style={{ "position": "relative", "top": "calc(-2* clamp(30px, 7vw, 100px))" }}>
+              <div class="column-8" style={{ "position": "relative", "top": "calc(-2* clamp(30px, 7vw, 100px))", "margin-bottom": "calc(-.125* clamp(50px, 7vw, 100px))" }}>
                 <img src={MoreTabHeroDM} />
               </div>
             </div>
           </div>
-          <div class="column-4 v-spacing-large order-3 more-tab-col-3">
+          <div class="column-4 v-spacing-small order-3 more-tab-col-3">
             <div>
               <h2 class="text-medium">
                 <em>The starting point<br /></em>
@@ -241,7 +241,7 @@ function Seb() {
               </p>
             </div>
           </div>
-          <div class="column-3 gap-medium v-spacing-large order-4 more-tab-col-4">
+          <div class="column-3 gap-medium v-spacing-small order-4 more-tab-col-4">
             <div class="text-center">
               <h2 class="text-small">
                 <em>Tools tab pre merge<br /></em>
@@ -250,7 +250,7 @@ function Seb() {
             </div>
             <img src={MoreTabToolsDM} />
           </div>
-          <div class="column-3 gap-medium v-spacing-large order-5 more-tab-col-5">
+          <div class="column-3 gap-medium v-spacing-small order-5 more-tab-col-5">
             <div class="text-center">
               <h2 class="text-small">
                 <em>Support tab pre merge<br /></em>

@@ -308,7 +308,7 @@ section > img {
 
 .section-title-container.v-spacing-xlarge,
 .v-spacing-xlarge {
-  padding: clamp(120px, 10vw, 350px) 0 0;
+  padding: clamp(120px, 15vw, 350px) 0 0;
 }
 
 .section-title-container.v-spacing-small-bottom,
