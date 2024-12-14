@@ -193,6 +193,7 @@ body:has(#seb) {
   .scroll-gallery {
     overflow-x: scroll;
     display: flex;
+    padding-bottom: 20px;
   }
 
   .scroll-gallery .more-tab-col-2,

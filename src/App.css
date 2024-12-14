@@ -746,3 +746,33 @@ nav .navigation-link + .navigation-link {
         transform: scale(1);
     }
 }
+
+@font-face {
+  font-family: "Uncut Sans";
+  /* src: url('assets/fonts/fira/eot/FiraSans-Regular.eot'); */
+  src: url('./assets/fonts/UncutSans-Light.woff2') format('woff2'),
+       url('./assets/fonts/UncutSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  /* src: url('assets/fonts/fira/eot/FiraSans-Regular.eot'); */
+  src: url('./assets/fonts/UncutSans-Book.woff2') format('woff2'),
+       url('./assets/fonts/UncutSans-Book.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@supports (font-variation-settings: normal) {
+  @font-face {
+      font-family: "Uncut Sans";
+      src: url('./assets/fonts/UncutSans-Variable.woff2') format('woff2 supports variations'),
+          url('./assets/fonts/UncutSans-Variable.woff2') format('woff2') tech('variations');
+      font-weight: 300 700;
+      font-stretch: 25% 151%;
+      font-display: swap;
+      font-style: normal;
+  }
+}
