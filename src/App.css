@@ -16,7 +16,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 /* General */
@@ -405,7 +405,7 @@ ul li + li {
 .navigation-link {
     color: rgba(0, 0, 0, .8);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: clamp(20px, 2.8vw, 25px);
     text-decoration: none;
 }
@@ -425,7 +425,7 @@ img + .body-text {
 
 .body-text > strong {
   font-family: 'Uncut Sans';
-  font-weight: 500;
+  font-weight: 400;
   color: black;
 }
 
