@@ -16,6 +16,14 @@ body:has(#seb) {
   margin-left: 0;
 }
 
+#header:has(~#seb) .navigation-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+#header:has(~#seb) .body-text {
+  color: rgba(255, 255, 255, .5);
+}
+
 #seb .mega-title,
 #seb .text-large > em,
 #seb .text-medium > em,
