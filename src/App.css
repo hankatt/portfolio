@@ -24,7 +24,8 @@ h1, h2, h3, h4, h5, h6 {
   html,
   body {
     font-size: 18px;
-    font-family: 'Univers LT 45 Light', sans-serif;
+    font-family: 'Uncut Sans', sans-serif;
+    font-weight: 300;
     height: 100%;
   }
 
@@ -423,8 +424,8 @@ img + .body-text {
 }
 
 .body-text > strong {
-  font-family: 'Univers LT 55';
-  font-weight: 400;
+  font-family: 'Uncut Sans';
+  font-weight: 500;
   color: black;
 }
 
