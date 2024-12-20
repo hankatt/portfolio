@@ -8,6 +8,10 @@ body:has(#seb) {
   height: auto;
 }
 
+#seb {
+  margin-bottom: 180px;
+}
+
 [class^="column-"] + [class^="column-"] {
   margin-left: clamp(32px, calc(10px + 3vw), 64px);
 }
@@ -112,12 +116,33 @@ body:has(#seb) {
   .column-6.responsive-resize {
     width: 66.67%;
   }
+
+  .case-prolong {
+    flex-direction: column;
+  }
+
+  .case-prolong .column-7 {
+    width: 100%;
+    max-width: 720px;
+  }
+
+  .case-prolong .column-5 {
+    width: 100%;
+    max-width: 520px;
+    padding-top: 40px;
+    align-self: flex-end;
+  }
 }
 
 @media screen and (max-width: 639px) {
   /* Tablet interpretation of column widths */
   .column-6.responsive-resize {
     width: 75%;
+  }
+
+  .case-prolong .column-7 img {
+    position: relative;
+    left: calc((90vw - 100%) / 2);
   }
 }
 

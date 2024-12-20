@@ -6,6 +6,7 @@ import DiscoveryTabImageLM from '../img/case-seb-discovery-tab-lm.png'
 import MoreTabHeroDM from '../img/case-seb-more-tab-hero-dm.png'
 import MoreTabToolsDM from '../img/case-seb-more-tab-tab-1-tools-dm.png'
 import MoreTabSupportDM from '../img/case-seb-more-tab-tab-1-support-dm.png'
+import ProlongHeroDM from '../img/case-seb-prolong-hero-dm.png'
 import {
   Link
 } from "react-router-dom";
@@ -226,7 +227,7 @@ function Seb() {
           </div>
           <div class="column-4 v-spacing-small order-3 more-tab-col-3">
             <div>
-              <h2 class="text-medium">
+              <h2 class="text-large">
                 <em>The starting point<br /></em>
                 Tools and Support listed a lot of mixed functionality and the idea of merging felt unreasonable at first.
               </h2>
@@ -293,6 +294,23 @@ function Seb() {
               <img src={MoreTabSupportDM} />
             </div>
         </section> */}
+        <div class="v-spacing-xlarge flex gap-large spaceBetween no-col-space case-prolong">
+          <div class="column-7" style={{ "min-width": "calc(640px - 10vw)" }}>
+            <img src={ProlongHeroDM} />
+          </div>
+          <div class="column-5 v-spacing-medium center">
+            <h2 class="text-large">
+              <em>Prolong mortgages in the app.<br /></em>
+              No more paper waste, no more waiting.
+            </h2>
+            <p className="text-medium">
+              I worked with the the Business manager for mortgages and one of their tech leads to define the experience, while continuously syncing the work the SEB web team. It was particularly important that the experience is identical across all channels.
+            </p>
+            <p className="text-medium">
+              New design elements were introduced with the design system in mind, meaning they were designed to be reusable and add value in several parts of the app, in an incremental way.
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
