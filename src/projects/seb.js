@@ -298,7 +298,7 @@ function Seb() {
           <div class="column-7" style={{ "min-width": "calc(640px - 10vw)" }}>
             <img src={ProlongHeroDM} />
           </div>
-          <div class="column-5 v-spacing-medium center">
+          <div class="column-5 v-spacing-small center">
             <h2 class="text-large">
               <em>Prolong mortgages in the app.<br /></em>
               No more paper waste, no more waiting.
