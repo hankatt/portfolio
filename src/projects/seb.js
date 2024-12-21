@@ -227,7 +227,7 @@ function Seb() {
           </div>
           <div class="column-4 v-spacing-small order-3 more-tab-col-3">
             <div>
-              <h2 class="text-large">
+              <h2 class="text-medium">
                 <em>The starting point<br /></em>
                 Tools and Support listed a lot of mixed functionality and the idea of merging felt unreasonable at first.
               </h2>
