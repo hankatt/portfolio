@@ -480,6 +480,17 @@ nav .navigation-link + .navigation-link {
   margin: clamp(20px, 2.5vw, 20px) 0;
 }
 
+em.highlight::before {
+  display: flex;
+  width: 4px;
+  background: rgba(255, 255, 255, 1);
+  content: "";
+  flex-grow: 1;
+  margin-right: 12px;
+  margin-top: -4px;
+  margin-bottom: -4px;
+}
+
 .work-section {
   margin: clamp(30px, 4.5vw, 80px) 0 15vw;
   gap: clamp(20px, 2vw, 40px);
@@ -652,6 +663,10 @@ nav .navigation-link + .navigation-link {
   padding: clamp(50px, 13vw, 200px);
   max-width: 860px;
   box-sizing: border-box;
+}
+
+.section-highlights .medium-eyebrow-spacing {
+  margin-bottom: 5px;
 }
 
 .section-highlights + .section-highlights {

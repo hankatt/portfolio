@@ -101,6 +101,7 @@ body:has(#seb) {
   padding: clamp(30px, 7vw, 100px) 0 0;
   background: linear-gradient(180deg, rgba(255,255,255,0.06908700980392157) 0%, rgba(255,255,255,0) 100%);
   margin-top: clamp(30px, 7vw, 100px);
+  margin-bottom: calc(-1 * clamp(30px, 7vw, 100px));
 }
 
 .gradient-container div.text-center {
@@ -213,6 +214,7 @@ body:has(#seb) {
     padding: 24px 30px 0;
     border-radius: 20px;
     margin-top: 0;
+    margin-bottom: 24px;
   }
 
   .gradient-container .column-8 {

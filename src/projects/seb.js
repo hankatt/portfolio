@@ -33,61 +33,6 @@ function Seb() {
             <img src={HeroImage} />
           </div>
         </div>
-        <section className="flex-col v-spacing-large">
-          <div className="section-highlights flex-end">
-            <h1 className="subtitle-text"><em>#productdiscovery</em></h1>
-            <h1 className="subtitle-text">
-              Repeatable product discovery
-            </h1>
-            <p className="text-medium">
-              I spent a lot of time diving deeper into ideas and ambitions for the future. From my experiences, from Klarna, I was comfortable with researching and defining inspiring and feasible visions of what could be next for us.
-            </p>
-            <p className="text-medium">
-              My methodology involves learning more about the customer, the business, the competitive landscape and the technological opportunities.
-            </p>
-            <p className="text-medium">
-              To me product discovery is highly collaborative and, much like an app, often involves several different product areas and product owners. To achieve this I work with each individual product owner slightly differently.
-            </p>
-          </div>
-          <div className="section-highlights lighter">
-            <h1 className="subtitle-text"><em>#designsystems</em></h1>
-            <h1 className="subtitle-text">
-              From a grassroots movement to the product roadmap (almost)
-            </h1>
-            <p className="text-medium">
-              We grew from 1 to 4 app teams, and doubled our headcount in design. An increased capacity comes with challenges. Working more deliberately with design systems is a great way to mitigate some of the challenges and support consistency and quality.
-            </p>
-            <p className="text-medium">
-              Designers and developers previously maintained independent libraries. As a smaller team that worked fine, but it did not scale as we grew. Establishing a solid, shared, way of working with design systems would allow us as a team to build a consistent quality product faster.
-            </p>
-            <p className="text-medium">
-              To get there we needed to organize from a grassroots movement in each competence, to a cross functional team with a spot in the product roadmap.
-            </p>
-            <p className="text-medium">
-              To get there I did a number of things:
-              <ul>
-                <li>
-                  Recruited allies
-                </li>
-                <li>
-                  Audited our product
-                </li>
-                <li>
-                  Communicate ambition and problem 
-                </li>
-                <li>
-                  Carve out time from people’s schedules
-                </li>
-                <li>
-                  Set up a backlog and plan our work
-                </li>
-                <li>
-                  Engage product leadership
-                </li>
-              </ul>
-            </p>
-          </div>
-        </section>
         <div className="section-title-container v-spacing-xlarge margin-center">
           <p className="text-small text-center medium-eyebrow-spacing">Part I</p>
           <p className="section-introduction subtitle-text">
@@ -111,7 +56,7 @@ function Seb() {
           <div class="column-6 responsive-resize">
             <h2 class="text-large">
               <em>Team building<br/></em>
-              Onboarding, retros, goals, skill mapping, end-of-year ceremony
+              Onboarding, retros, goals, skill mapping, end-of-year ceremony, backlog.
             </h2>
             <p className="text-medium">
               We grew during my time in the team. From experience of immense growth at Klarna, I know that growth requires work in order to fully reap the rewards of being more people. We have to put in work to maintain consistency. We have to put in work to grow together as a team, to form an identity and a voice.
@@ -120,7 +65,7 @@ function Seb() {
               Our design team consisted of, at this point, 6 designers from 3 different companies.
             </p>
             <p className="text-medium">
-              <em>The activity I’m most proud of</em> is the enhanced design on-boarding in general, and one part of it called “skill mapping” in particular.
+              <em class="highlight flex">The activity I’m most proud of is the enhanced design on-boarding in general, and one part of it called “skill mapping” in particular.</em>
             </p>
             <p className="text-medium">
               This was not only really appreciated, because it helped us get to know each other as designers and how we got in to the trade. But also because it became a useful tool when we allocate designers in the team planning.
@@ -323,6 +268,67 @@ function Seb() {
             </p>
           </div>
         </div>
+        <div className="section-title-container v-spacing-xlarge margin-center">
+          <p className="text-small text-center medium-eyebrow-spacing">Part III</p>
+          <p className="section-introduction subtitle-text">
+            <em>Product processes.</em>
+          </p>
+        </div>
+        <section className="flex-col v-spacing-large">
+          <div className="section-highlights flex-end">
+            <h1 className="subtitle-text"><em>Product discovery.</em></h1>
+            <h1 className="subtitle-text">
+              A deep-dive on how I approach problems and goals with lots of unknowns.
+            </h1>
+            <p className="text-medium">
+              I spent a lot of time diving deeper into ideas and ambitions for the future. From my experiences, from Klarna, I was comfortable with researching and defining inspiring and feasible visions of what could be next for us.
+            </p>
+            <p className="text-medium">
+              My methodology involves learning more about the customer, the business, the competitive landscape and the technological opportunities.
+            </p>
+            <p className="text-medium">
+              To me product discovery is highly collaborative and, much like an app, often involves several different product areas and product owners. To achieve this I work with each individual product owner slightly differently.
+            </p>
+          </div>
+          <div className="section-highlights lighter">
+            <h1 className="subtitle-text"><em>Design systems.</em></h1>
+            <h1 className="subtitle-text">
+              A deep-dive on learnings from taking our grassroots movement to the product roadmap.
+            </h1>
+            <p className="text-medium">
+              We grew from 1 to 4 app teams, and doubled our headcount in design. An increased capacity comes with challenges. Working more deliberately with design systems is a great way to mitigate some of the challenges and support consistency and quality.
+            </p>
+            <p className="text-medium">
+              Designers and developers previously maintained independent libraries. As a smaller team that worked fine, but it did not scale as we grew. Establishing a solid, shared, way of working with design systems would allow us as a team to build a consistent quality product faster.
+            </p>
+            <p className="text-medium">
+              To get there we needed to organize from a grassroots movement in each competence, to a cross functional team with a spot in the product roadmap.
+            </p>
+            <p className="text-medium">
+              To get there I did a number of things:
+              <ul>
+                <li>
+                  Recruited allies
+                </li>
+                <li>
+                  Audited our product
+                </li>
+                <li>
+                  Communicate ambition and problem 
+                </li>
+                <li>
+                  Carve out time from people’s schedules
+                </li>
+                <li>
+                  Set up a backlog and plan our work
+                </li>
+                <li>
+                  Engage product leadership
+                </li>
+              </ul>
+            </p>
+          </div>
+        </section>
       </div>
     </>
   );
