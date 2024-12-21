@@ -88,7 +88,13 @@ function Seb() {
             </p>
           </div>
         </section>
-        <div class="v-spacing-large">
+        <div className="section-title-container v-spacing-xlarge margin-center">
+          <p className="text-small text-center medium-eyebrow-spacing">Part I</p>
+          <p className="section-introduction subtitle-text">
+            <em>The design team.</em>
+          </p>
+        </div>
+        <div class="v-spacing-xlarge">
           <div class="column-6 justify-right responsive-resize">
             <h2 class="text-large">
               <em>My role was twofold. </em>
@@ -143,7 +149,13 @@ function Seb() {
             </p>
           </div>
         </div>
-        <div class="v-spacing-large flex gap-large spaceBetween no-col-space">
+        <div className="section-title-container v-spacing-xlarge margin-center">
+          <p className="text-small text-center medium-eyebrow-spacing">Part II</p>
+          <p className="section-introduction subtitle-text">
+            <em>Features I designed.</em>
+          </p>
+        </div>
+        <div class="v-spacing-xlarge flex gap-large spaceBetween no-col-space">
           <div class="column-5 v-spacing-medium center" style={{ "min-width": 360, "padding-bottom": 40 }}>
             <h2 class="text-large">
               <em>Discovery tab.<br /></em>
