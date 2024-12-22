@@ -20,8 +20,8 @@ function Seb() {
             <section class="project-description v-spacing-medium column-6 responsive-resize justify-right">
               <h2 class="text-large">
                 <em>Skandinaviska Enskilda Banken is one of the leading banks
-                in the Nordics region.</em> On behalf of Bontouch I worked in a 
-                mixed team† as a designer and design lead with their mobile apps.
+                in the Nordics region.</em> I worked as a designer and design lead in a 
+                mixed† team.
               </h2>
               <p class="project-description text-medium">
                 †a team consisting of designers from Bontouch and SEB
@@ -36,7 +36,7 @@ function Seb() {
         <div className="section-title-container v-spacing-xlarge margin-center">
           <p className="text-small text-center medium-eyebrow-spacing">Part I</p>
           <p className="section-introduction subtitle-text">
-            <em>The design team.</em>
+            <em>Work with the design team.</em>
           </p>
         </div>
         <div class="v-spacing-xlarge">
@@ -97,7 +97,7 @@ function Seb() {
         <div className="section-title-container v-spacing-xlarge margin-center">
           <p className="text-small text-center medium-eyebrow-spacing">Part II</p>
           <p className="section-introduction subtitle-text">
-            <em>Features I designed.</em>
+            <em>Work on features.</em>
           </p>
         </div>
         <div class="v-spacing-xlarge flex gap-large spaceBetween no-col-space">
@@ -271,7 +271,7 @@ function Seb() {
         <div className="section-title-container v-spacing-xlarge margin-center">
           <p className="text-small text-center medium-eyebrow-spacing">Part III</p>
           <p className="section-introduction subtitle-text">
-            <em>Product processes.</em>
+            <em>Work on processes.</em>
           </p>
         </div>
         <section className="flex-col v-spacing-large">
