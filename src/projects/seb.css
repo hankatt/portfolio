@@ -147,7 +147,14 @@ body:has(#seb) {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 560px) {
+  /* Tablet interpretation of column widths */
+  .column-6.responsive-resize {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 429px) {
   /* Tablet interpretation of column widths */
   .column-6.responsive-resize {
     width: 100%;
