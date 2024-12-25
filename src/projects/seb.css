@@ -92,6 +92,10 @@ body:has(#seb) {
 
 }
 
+.discovery-tab > .v-spacing-medium {
+  min-width: 380px;
+}
+
 .gradient-container {
   border-radius: 30px;
   flex-direction: column;
@@ -146,6 +150,29 @@ body:has(#seb) {
 @media screen and (max-width: 767px) {
   /* Tablet interpretation of column widths */
   
+  .discovery-tab {
+    flex-direction: column;
+    gap: clamp(20px, 2.8vw, 25px);
+  }
+
+  .discovery-tab > .v-spacing-medium {
+    padding: clamp(25px, 3vw, 60px) 0 0;
+    align-self: end;
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .discovery-tab-image {
+    min-width: 480px;
+    width: 100%;
+    order: -1;
+  }
+
+  .discovery-tab-image img {
+    position: relative;
+    left: calc((90vw - 100%) / 2);
+  }
+
   .spaceEvenly {
     justify-content: space-between;
   }

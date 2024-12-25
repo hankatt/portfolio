@@ -40,7 +40,7 @@ function Seb() {
           </p>
         </div>
         <div class="v-spacing-xlarge flex flex-col">
-          <div class="column-6 justify-right flex-end responsive-resize">
+          <div class="column-6 justify-right responsive-resize">
             <h2 class="text-large">
               <em>My role was twofold. </em>
               In my product team I did explorations and visions for challenging
@@ -52,8 +52,8 @@ function Seb() {
             </p>
           </div>
         </div>
-        <div class="v-spacing-large">
-          <div class="column-6 responsive-resize">
+        <div class="v-spacing-large flex flex-col">
+          <div class="column-6 flex-end responsive-resize">
             <h2 class="text-large">
               <em>Team building<br/></em>
               Onboarding, retros, goals, skill mapping, end-of-year ceremony, backlog.
@@ -73,7 +73,7 @@ function Seb() {
           </div>
         </div>
         <div class="v-spacing-large flex flex-col">
-          <div class="column-6 justify-right flex-end responsive-resize">
+          <div class="column-6 justify-right responsive-resize">
             <h2 class="text-large">
               <em>Cross functional collaboration.<br/></em>
               Across competences, across employers.
@@ -100,8 +100,8 @@ function Seb() {
             <em>Work on features.</em>
           </p>
         </div>
-        <div class="v-spacing-xlarge flex gap-large spaceBetween no-col-space">
-          <div class="column-5 v-spacing-medium center" style={{ "min-width": 360, "padding-bottom": 40 }}>
+        <div class="v-spacing-xlarge flex discovery-tab gap-large spaceBetween no-col-space">
+          <div class="column-5 v-spacing-medium center">
             <h2 class="text-large">
               <em>Discovery tab.<br /></em>
               New ways to present and work with content.
@@ -120,7 +120,7 @@ function Seb() {
               </ul>
             </p>
           </div>
-          <div class="column-9" style={{"min-width": 640 }}>
+          <div class="column-9 discovery-tab-image">
             <img src={DiscoveryTabImageDM} />
           </div>
         </div>
