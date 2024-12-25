@@ -251,7 +251,7 @@ function Seb() {
               <img src={MoreTabSupportDM} />
             </div>
         </section> */}
-        <div class="v-spacing-xlarge flex gap-large spaceBetween no-col-space case-prolong">
+        <div class="v-spacing-large flex gap-large spaceBetween no-col-space case-prolong">
           <div class="column-7" style={{ "min-width": "calc(640px - 10vw)" }}>
             <img src={ProlongHeroDM} />
           </div>
@@ -274,7 +274,7 @@ function Seb() {
             <em>Work on processes.</em>
           </p>
         </div>
-        <section className="flex-col v-spacing-large">
+        <section className="flex-col v-spacing-xlarge">
           <div className="section-highlights flex-end">
             <h1 className="subtitle-text"><em>Product discovery.</em></h1>
             <h1 className="subtitle-text">

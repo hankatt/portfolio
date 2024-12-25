@@ -79,6 +79,11 @@ body:has(#seb) {
   max-width: 1057px;
 }
 
+.hero-image img {
+  transform: scale(1.022);
+  margin: 2vw 0 0;
+}
+
 .more-tab {
 
 }
@@ -116,6 +121,10 @@ body:has(#seb) {
   display: none;
 }
 
+#seb .section-highlights {
+  max-width: clamp(720px, 70vw, 840px);
+}
+
 @media screen and (max-width: 1023px) {
   /* Tablet interpretation of column widths */
   .column-6.responsive-resize {
@@ -138,6 +147,12 @@ body:has(#seb) {
     padding-top: 40px;
     align-self: flex-end;
   }
+
+  #seb .section-highlights {
+    max-width: 720px;
+    min-width: 350px;
+    width: 82%;
+  }
 }
 
 @media screen and (max-width: 639px) {
@@ -150,6 +165,11 @@ body:has(#seb) {
 @media screen and (max-width: 767px) {
   /* Tablet interpretation of column widths */
   
+  #seb .section-highlights {
+    max-width: 570px;
+    width: 90%;
+  }
+
   .discovery-tab {
     flex-direction: column;
     gap: clamp(20px, 2.8vw, 25px);
@@ -264,5 +284,12 @@ body:has(#seb) {
 
   [class^="column-"] + [class^="column-"] {
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #seb .section-highlights {
+    width: 100%;
+    min-width: auto;
   }
 }
