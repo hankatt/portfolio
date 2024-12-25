@@ -18,21 +18,25 @@ function Home() {
             </div>
             */}
             <div className="values-message">
-              <h1 className="hero-title">product design & design systems<br/>for companies in all stages.</h1>
+              <h1 className="values-title">Product design. Visual design. Design systems. For companies in all shapes and sizes.</h1>
             </div>
           </div>
         </div>
         <section className="spaceBetween wrap landing-page-footer">
           <div className="clients current">
             <div className="client">
-              <a href="#!" className="client-name">currently</a>
-              <div className="client-logo bontouch"></div>
+              <span className="client-name">currently</span>
+              <a href="/seb" className="client-name">
+                <div className="client-logo bontouch"></div>
+              </a>
             </div>
           </div>
           <div className="clients">
             <div className="client">
-              <a href="#!" className="client-name">ex.</a>
-              <img src={clientLogoKlarna} className="client-logo klarna" />
+              <span className="client-name">ex.</span>
+              <a href="/klarna-mp-ui" className="client-name">
+                <img src={clientLogoKlarna} className="client-logo klarna" />
+              </a>
             </div>
             <div className="client">
               <img src={clientLogoRGA} className="client-logo rga" />

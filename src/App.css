@@ -1,8 +1,20 @@
 /* Resets */
 
-body {
-  mix-blend-mode: none;
+body:has(.landing-page-expand) {
+  background: black;
 }
+
+body:has(.landing-page-expand) .navigation-link,
+body:has(.landing-page-expand) .navigation-link:link,
+.values-container {
+  color: rgba(255, 255, 255, .93);
+}
+
+body:has(.landing-page-expand) .body-text {
+  color: rgba(255, 255, 255, .5);
+}
+
+body:has(.landing-page-expand) .body-text,
 
 * {
     margin: 0;
@@ -36,6 +48,16 @@ h1, h2, h3, h4, h5, h6 {
 
   .hero-title {
     font-size: clamp(22px, calc(14px + 1.2vw), 37px);
+    letter-spacing: -.25px;
+  }
+
+  .values-title {
+    font-size: clamp(28px, 3.25vw, 50px);
+    letter-spacing: -.5px;
+  }
+
+  .mega-title {
+    font-size: clamp(32px, calc(20px + 3vw), 64px);
     letter-spacing: -.25px;
   }
 
@@ -73,8 +95,8 @@ h1, h2, h3, h4, h5, h6 {
 .client-logo {
   background: red;
   border-radius: 31px;
-  height: 31px;
-  width: 31px;
+  height: clamp(20px, 2vw, 31px);
+  width: clamp(20px, 2vw, 31px);
 }
 
 .client-logo.bontouch {
@@ -82,25 +104,27 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
   background-image: url('./img/client-logo-bt.png');
   background-repeat: no-repeat;
-  background-size: 26px;
+  background-size: cover;
   mix-blend-mode: luminosity;
 }
 
 .client-logo.klarna {
   background: none;
   border-radius: 0;
+  filter: invert(1);
   mix-blend-mode: luminosity;
   width: auto;
   height: 16px;
   opacity: 50%;
-  margin-top: -1px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 1px;
+  margin-left: clamp(0px, 1vw, 10px);
+  margin-right: clamp(0px, 1vw, 10px);
 }
 
 .client-logo.rga {
   background: none;
   border-radius: 0;
+  filter: invert(1);
   mix-blend-mode: luminosity;
   width: auto;
   height: 16px;
@@ -110,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #landing-page {
-  padding: clamp(0px, 3vw, 55px) 5vw 1vw;
+  padding: clamp(0px, 3vw, 55px) clamp(20px, 7vw, 120px) 0vw;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -562,7 +586,7 @@ em.highlight::before {
 .work-sample.seb:hover .work-sample-label,
 .work-sample.seb:hover .client-name,
 .work-sample.seb:hover .client-duration {
-  color: rgba(0, 0, 0, .7);
+  color: rgba(255, 255, 255, .4);
 }
 
 .work-sample.klarna:hover {
@@ -583,7 +607,7 @@ em.highlight::before {
 }
 
 .work-sample-title {
-  color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .work-sample-hero-image {
@@ -601,7 +625,7 @@ em.highlight::before {
 .work-sample-label,
 .client-name,
 .client-duration {
-  color: rgba(0, 0, 0, .5);
+  color: rgba(255, 255, 255, .6);
 }
 
 
@@ -711,7 +735,7 @@ em.highlight::before {
   .section-introduction,
   .narrative-section .body-text,
   img.inline {
-    max-width: clamp(280px, 90vw, 500px);
+    max-width: clamp(280px, 90vw, 400px);
   }
 
   .col-half {
@@ -725,7 +749,7 @@ em.highlight::before {
   .narrative-section .body-text,
   img.inline,
   .work-sample-elevator-pitch {
-    max-width: clamp(520px, 49vw, 800px);
+    max-width: clamp(400px, 50vw, 682px);
   }
 
   .col-half {

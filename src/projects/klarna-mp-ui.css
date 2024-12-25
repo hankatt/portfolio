@@ -1,4 +1,4 @@
-body {
+body:has(#klarna-mp-ui) {
   background-color: #F6F5F3;
 }
 
@@ -32,12 +32,12 @@ body {
 }
 
 .hero-image.first {
-  margin-left: -17%
+  margin-left: -20%
 }
 
 .hero-image.second {
   margin-top: -17%;
-  margin-left: 17%;
+  margin-left: 20%;
 }
 
 .hero-image > img {

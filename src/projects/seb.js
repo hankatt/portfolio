@@ -252,7 +252,7 @@ function Seb() {
             </div>
         </section> */}
         <div class="v-spacing-large flex gap-large spaceBetween no-col-space case-prolong">
-          <div class="column-7" style={{ "min-width": "calc(640px - 10vw)" }}>
+          <div class="column-7" style={{ "min-width": "calc(640px - 14vw)" }}>
             <img src={ProlongHeroDM} />
           </div>
           <div class="column-5 v-spacing-small center">
