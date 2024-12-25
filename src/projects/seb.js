@@ -15,9 +15,9 @@ function Seb() {
   return (
     <>
       <div id="seb">
-        <div className="project-title-container">
+        <div className="project-title-container flex flex-col">
             <h1 className="mega-title">SEB</h1>
-            <section class="project-description v-spacing-medium column-6 responsive-resize justify-right">
+            <section class="project-description v-spacing-medium column-6 responsive-resize flex-end">
               <h2 class="text-large">
                 <em>Skandinaviska Enskilda Banken is one of the leading banks
                 in the Nordics region.</em> I worked as a designer and design lead in a 
@@ -39,8 +39,8 @@ function Seb() {
             <em>Work with the design team.</em>
           </p>
         </div>
-        <div class="v-spacing-xlarge">
-          <div class="column-6 justify-right responsive-resize">
+        <div class="v-spacing-xlarge flex flex-col">
+          <div class="column-6 justify-right flex-end responsive-resize">
             <h2 class="text-large">
               <em>My role was twofold. </em>
               In my product team I did explorations and visions for challenging
@@ -72,8 +72,8 @@ function Seb() {
             </p>
           </div>
         </div>
-        <div class="v-spacing-large">
-          <div class="column-6 justify-right responsive-resize">
+        <div class="v-spacing-large flex flex-col">
+          <div class="column-6 justify-right flex-end responsive-resize">
             <h2 class="text-large">
               <em>Cross functional collaboration.<br/></em>
               Across competences, across employers.

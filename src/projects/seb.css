@@ -115,7 +115,8 @@ body:has(#seb) {
 @media screen and (max-width: 1023px) {
   /* Tablet interpretation of column widths */
   .column-6.responsive-resize {
-    width: 66.67%;
+    max-width: clamp(350px, 70vw, 460px);
+    width: auto;
   }
 
   .case-prolong {
@@ -136,28 +137,9 @@ body:has(#seb) {
 }
 
 @media screen and (max-width: 639px) {
-  /* Tablet interpretation of column widths */
-  .column-6.responsive-resize {
-    width: 75%;
-  }
-
   .case-prolong .column-7 img {
     position: relative;
     left: calc((90vw - 100%) / 2);
-  }
-}
-
-@media screen and (max-width: 560px) {
-  /* Tablet interpretation of column widths */
-  .column-6.responsive-resize {
-    width: 85%;
-  }
-}
-
-@media screen and (max-width: 429px) {
-  /* Tablet interpretation of column widths */
-  .column-6.responsive-resize {
-    width: 100%;
   }
 }
 
