@@ -16,13 +16,17 @@ function KlarnaMPUI() {
   return (
     <>
       <div id="klarna-mp-ui">
-        <section className="row v-spacing-large center">
-          <div className="column-12 text-center align-center">
-            <h1 className="hero-title">
-              Merchant Portal helps merchants manage their relationship with Klarna. <em>I set the design direction and led its responsive Design System.</em>
-            </h1>
-          </div>
-        </section>
+        <div className="project-title-container flex flex-col">
+          <h1 className="mega-title">Klarna</h1>
+          <section class="project-description v-spacing-medium column-6 responsive-resize flex-end">
+            <h2 class="text-large">
+              <em>Merchant Portal lets merchants manage their relationship with Klarna.</em> I set the design direction for the product† and its responsive Design System.
+            </h2>
+            <p class="project-description text-medium">
+              †Consisting of dozens of product teams, with and without designers
+            </p>
+          </section>
+        </div>
         <div className="section-hero-container v-spacing-small">
           <div className="hero-image first">
             <img src={HeroMPOldImage} />
