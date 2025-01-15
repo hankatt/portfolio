@@ -291,6 +291,18 @@ section > img {
   width: 100%;
 }
 
+.project-title-container {
+  margin-top: 130px;
+}
+
+.project-description {
+  gap: clamp(8px, 1.35vw, 18px);
+}
+
+.dagger-gap {
+  margin-top: clamp(8px, 1.35vw, 18px);
+}
+
 .custom-offset-5-text {
   position: relative;
   top: clamp(180px, 26vw, 370px);

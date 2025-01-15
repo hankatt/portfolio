@@ -20,9 +20,9 @@ function KlarnaMPUI() {
           <h1 className="mega-title">Klarna</h1>
           <section class="project-description v-spacing-medium column-6 responsive-resize flex-end">
             <h2 class="text-large">
-              <em>Merchant Portal lets merchants manage their relationship with Klarna.</em> I set the design direction for the product† and its responsive Design System.
+              <em>Merchant Portal lets merchants manage their relationship with Klarna.</em> I set the design direction for the product† and led its responsive Design System team.
             </h2>
-            <p class="project-description text-medium">
+            <p class="project-description text-medium dagger-gap">
               †Consisting of dozens of product teams, with and without designers
             </p>
           </section>
@@ -57,8 +57,8 @@ function KlarnaMPUI() {
         <div className="section-title-container margin-center">
           <p className="text-small faded text-center medium-eyebrow-spacing">Mission</p>
           <h1 className="text-large text-center">
-            Dozens of teams publish their product in the portal.
-            <em> To enable consistency, a smooth rebranding and a responsive design we worked innovatively with design systems, together with designers and developers across all the teams.</em>
+            Help dozens of teams design and publish a consistent, quality, product.
+            <em> Key initiatives include a company-wide rebranding, building a responsive product framework, and setting up the team.</em>
           </h1>
           {/* <p className="section-introduction body-text faded">
             To mitigate design inconsistencies and increase quality, I designed and helped implement components that systematized shared needs. This helped product teams achieve a reliable UI faster and functioned as a tool for managing and maintaining interfaces as well as product and brand alignment.
@@ -85,8 +85,8 @@ function KlarnaMPUI() {
           </div>
         </section>
         <div className="section-title-container margin-center">
-          <p className="section-introduction subtitle-text faded">
-            <em>Below is a selection of the most impactful componentizations.</em> It's based on where we saw teams struggle, what was mostly used or which had the most ambiguity.
+          <p className="section-introduction subtitle-text">
+            <em>Below is a selection of key components.</em> Based on where teams commonly struggle.
           </p>
         </div>
         <section className="row v-spacing-large">
@@ -191,8 +191,11 @@ function KlarnaMPUI() {
         </section>
         <div className="section-title-container margin-center">
           <p className="text-small faded text-center medium-eyebrow-spacing">Final words</p>
-          <p className="section-introduction subtitle-text faded">
-            <em>An insane amount of love went in to the shell of the portal and the grid it builds upon.</em> The grid is actually fundamental to our responsive components and modules. It allowed us to do @container queries before container queries were widely supported.
+          <p className="section-introduction subtitle-text">
+            An insane amount of love went in to the shell of the portal and its responsive grid†.
+            <p class="project-description text-medium dagger-gap faded">
+              †It allowed us to do CSS @container queries before @container queries were supported.
+            </p>
           </p>
         </div>
         <div className="section-title-container margin-center v-spacing-xlarge">

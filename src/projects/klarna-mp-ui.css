@@ -2,6 +2,14 @@ body:has(#klarna-mp-ui) {
   background-color: #F6F5F3;
 }
 
+#header:has(~#klarna-mp-ui) .navigation-link {
+  color: rgba(0, 0, 0, .93);
+}
+
+#header:has(~#klarna-mp-ui) .body-text {
+  color: rgba(0, 0, 0, .5);
+}
+
 #klarna-mp-ui .mega-title,
 #klarna-mp-ui .text-large > em,
 #klarna-mp-ui .text-medium > em,
