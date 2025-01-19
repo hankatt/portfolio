@@ -3,14 +3,19 @@ body:has(#klarna-mp-ui) {
 }
 
 #header:has(~#klarna-mp-ui) .navigation-link {
-  color: rgba(0, 0, 0, .93);
+  text-decoration-color: #0000EE;
+  color: #0000EE;
+}
+
+#header:has(~#klarna-mp-ui) .navigation-link:visited {
+  color: #551A8B;
+  text-decoration-color: #551A8B;
 }
 
 #header:has(~#klarna-mp-ui) .body-text {
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 1);
 }
 
-#klarna-mp-ui .mega-title,
 #klarna-mp-ui .text-large > em,
 #klarna-mp-ui .text-medium > em,
 #klarna-mp-ui .section-title > em,

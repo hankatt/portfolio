@@ -21,12 +21,19 @@ body:has(#seb) {
 }
 
 #header:has(~#seb) .navigation-link {
-  color: rgba(255, 255, 255, .93);
+  text-decoration-color: #D9D000;
+  color: #D9D000;
+}
+
+#header:has(~#seb) .navigation-link:visited {
+  color: #9F38FE;
+  text-decoration-color: #9F38FE;
 }
 
 #header:has(~#seb) .body-text {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 1);
 }
+
 
 #seb .mega-title,
 #seb .text-large > em,

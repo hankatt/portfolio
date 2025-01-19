@@ -18,7 +18,8 @@ function Home() {
             </div>
             */}
             <div className="values-message">
-              <h1 className="values-title">Product design. Visual design. Design systems. For companies in all shapes and sizes.</h1>
+              <h1 className="values-title">Experienced designer.<br/> <em>I help companies push what's possible at the intersection of business, technology and design.</em></h1>
+              <h4 className="values-description"><em>From Klarna and SEB I have extensive experience helping product leaders synthesize short and long term ambitions with customer needs, and turning this into strategic and systematic designs that scale.</em></h4>
             </div>
           </div>
         </div>

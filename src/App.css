@@ -4,17 +4,18 @@ body:has(.landing-page-expand) {
   background: black;
 }
 
-body:has(.landing-page-expand) .navigation-link,
-body:has(.landing-page-expand) .navigation-link:link,
 .values-container {
   color: rgba(255, 255, 255, .93);
 }
 
 body:has(.landing-page-expand) .body-text {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .93);
 }
 
-body:has(.landing-page-expand) .body-text,
+body:has(.landing-page-expand) .navigation-link {
+  text-decoration-color: #D9D000;
+  color: #D9D000;
+}
 
 * {
     margin: 0;
@@ -54,6 +55,14 @@ h1, h2, h3, h4, h5, h6 {
   .values-title {
     font-size: clamp(28px, 3.25vw, 50px);
     letter-spacing: -.5px;
+  }
+
+  .values-description {
+    line-height: 1.41414;
+  }
+  
+  .values-title + .values-description {
+    margin-top: clamp(20px, 2.8vw, 25px);
   }
 
   .mega-title {
@@ -428,6 +437,11 @@ em {
   font-style: normal;
 }
 
+.values-title em,
+.values-description em {
+  color: rgba(255, 255, 255, .666);
+}
+
 ul {
   margin-inline-start: 1em;
 }
@@ -472,8 +486,10 @@ nav .navigation-link + .navigation-link {
 }
 
 .navigation-link:link {
-    color: rgba(0, 0, 0, .4);
-    transition: color .166s ease-in-out;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1.3px;
+  transition: color .166s ease-in-out;
 }
 
 .navigation-link:hover {
@@ -488,7 +504,8 @@ nav .navigation-link + .navigation-link {
 }
 
 .navigation-link:visited {
-    color: rgba(0, 0, 0, .7);
+  color: #9F38FE;
+  text-decoration-color: #9F38FE;
 }
 
 #header h1 {

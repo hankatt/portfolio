@@ -17,19 +17,19 @@ function Seb() {
       <div id="seb">
         <div className="project-title-container flex flex-col">
             <h1 className="mega-title">SEB</h1>
-            <section class="project-description v-spacing-medium column-6 responsive-resize flex-end">
-              <h2 class="text-large">
+            <section className="project-description v-spacing-medium column-6 responsive-resize flex-end">
+              <h2 className="text-large">
                 <em>Skandinaviska Enskilda Banken is one of the leading banks
                 in the Nordics region.</em> I worked as a designer and design lead in a 
                 mixed† team.
               </h2>
-              <p class="project-description text-medium">
+              <p className="project-description text-medium">
                 †a team consisting of designers from Bontouch and SEB
               </p>
             </section>
         </div>
-        <div class="v-spacing-large">
-          <div class="hero-image">
+        <div className="v-spacing-large">
+          <div className="hero-image">
             <img src={HeroImage} />
           </div>
         </div>
@@ -39,9 +39,9 @@ function Seb() {
             <em>Work with the design team.</em>
           </p>
         </div>
-        <div class="v-spacing-xlarge flex flex-col">
-          <div class="column-6 justify-right responsive-resize">
-            <h2 class="text-large">
+        <div className="v-spacing-xlarge flex flex-col">
+          <div className="column-6 justify-right responsive-resize">
+            <h2 className="text-large">
               <em>My role was twofold. </em>
               In my product team I did explorations and visions for challenging
               things ahead. In the design team I worked with way of working and
@@ -52,9 +52,9 @@ function Seb() {
             </p>
           </div>
         </div>
-        <div class="v-spacing-large flex flex-col">
-          <div class="column-6 flex-end responsive-resize">
-            <h2 class="text-large">
+        <div className="v-spacing-large flex flex-col">
+          <div className="column-6 flex-end responsive-resize">
+            <h2 className="text-large">
               <em>Team building<br/></em>
               Onboarding, retros, goals, skill mapping, end-of-year ceremony, backlog.
             </h2>
@@ -65,16 +65,16 @@ function Seb() {
               Our design team consisted of, at this point, 6 designers from 3 different companies.
             </p>
             <p className="text-medium">
-              <em class="highlight flex">The activity I’m most proud of is the enhanced design on-boarding in general, and one part of it called “skill mapping” in particular.</em>
+              <em className="highlight flex">The activity I’m most proud of is the enhanced design on-boarding in general, and one part of it called “skill mapping” in particular.</em>
             </p>
             <p className="text-medium">
               This was not only really appreciated, because it helped us get to know each other as designers and how we got in to the trade. But also because it became a useful tool when we allocate designers in the team planning.
             </p>
           </div>
         </div>
-        <div class="v-spacing-large flex flex-col">
-          <div class="column-6 justify-right responsive-resize">
-            <h2 class="text-large">
+        <div className="v-spacing-large flex flex-col">
+          <div className="column-6 justify-right responsive-resize">
+            <h2 className="text-large">
               <em>Cross functional collaboration.<br/></em>
               Across competences, across employers.
             </h2>
@@ -100,9 +100,9 @@ function Seb() {
             <em>Work on features.</em>
           </p>
         </div>
-        <div class="v-spacing-xlarge flex discovery-tab gap-large spaceBetween no-col-space">
-          <div class="column-5 v-spacing-medium center">
-            <h2 class="text-large">
+        <div className="v-spacing-xlarge flex discovery-tab gap-large spaceBetween no-col-space">
+          <div className="column-5 v-spacing-medium center">
+            <h2 className="text-large">
               <em>Discovery tab.<br /></em>
               New ways to present and work with content.
             </h2>
@@ -120,13 +120,13 @@ function Seb() {
               </ul>
             </p>
           </div>
-          <div class="column-9 discovery-tab-image">
+          <div className="column-9 discovery-tab-image">
             <img src={DiscoveryTabImageDM} />
           </div>
         </div>
-        <div class="v-spacing-xlarge flex wrap spaceEvenly more-tab">
-          <div class="column-5 v-spacing-large order-2 more-tab-col-1">
-            <h2 class="text-xlarge">
+        <div className="v-spacing-xlarge flex wrap spaceEvenly more-tab">
+          <div className="column-5 v-spacing-large order-2 more-tab-col-1">
+            <h2 className="text-xlarge">
               <em>More tab.<br /></em>
               Merging two tabs into one.
             </h2>
@@ -134,33 +134,33 @@ function Seb() {
               The previous Tools and Support tabs both served as homes for various sporadically used features. There was a lack of strategy and holistic considerations behind what actually went in them. The new tab was made possible through moving features to more contextual homes and improving clarity for what was left.
             </p>
           </div>
-          <section class="scroll-gallery spaceBetween gap-large order-2">
-            <div class="column-5 order-1 more-tab-col-2">
-                <div class="gradient-container">
+          <section className="scroll-gallery spaceBetween gap-large order-2">
+            <div className="column-5 order-1 more-tab-col-2">
+                <div className="gradient-container">
                   {/* <p className="text-small">More tab after merge</p> */}
-                  <div class="text-center">
-                    <h2 class="text-small">
+                  <div className="text-center">
+                    <h2 className="text-small">
                       <em>The new tab<br /></em>
                       With clearer sections
                     </h2>
                   </div>
-                  <div class="column-8">
+                  <div className="column-8">
                     <img src={MoreTabHeroDM} />
                   </div>
                 </div>
               </div>
-              <div class="column-3 gap-medium v-spacing-large order-4 more-tab-col-4">
-              <div class="text-center">
-                <h2 class="text-small">
+              <div className="column-3 gap-medium v-spacing-large order-4 more-tab-col-4">
+              <div className="text-center">
+                <h2 className="text-small">
                   <em>Tools tab pre merge<br /></em>
                   4 new features moved out
                 </h2>
               </div>
               <img src={MoreTabToolsDM} />
             </div>
-            <div class="column-3 gap-medium v-spacing-large order-5 more-tab-col-5">
-              <div class="text-center">
-                <h2 class="text-small">
+            <div className="column-3 gap-medium v-spacing-large order-5 more-tab-col-5">
+              <div className="text-center">
+                <h2 className="text-small">
                   <em>Support tab pre merge<br /></em>
                   No features moved
                 </h2>
@@ -168,23 +168,23 @@ function Seb() {
               <img src={MoreTabSupportDM} />
             </div>
         </section>
-          <div class="column-5 order-1 more-tab-col-2">
-            <div class="gradient-container">
+          <div className="column-5 order-1 more-tab-col-2">
+            <div className="gradient-container">
               {/* <p className="text-small">More tab after merge</p> */}
-              <div class="text-center">
-                <h2 class="text-small">
+              <div className="text-center">
+                <h2 className="text-small">
                   <em>The new tab<br /></em>
                   With clearer sections
                 </h2>
               </div>
-              <div class="column-8" style={{ "position": "relative", "top": "calc(-2* clamp(30px, 7vw, 100px))", "margin-bottom": "calc(-.125* clamp(50px, 7vw, 100px))" }}>
+              <div className="column-8" style={{ "position": "relative", "top": "calc(-2* clamp(30px, 7vw, 100px))", "margin-bottom": "calc(-.125* clamp(50px, 7vw, 100px))" }}>
                 <img src={MoreTabHeroDM} />
               </div>
             </div>
           </div>
-          <div class="column-4 v-spacing-small order-3 more-tab-col-3">
+          <div className="column-4 v-spacing-small order-3 more-tab-col-3">
             <div>
-              <h2 class="text-medium">
+              <h2 className="text-medium">
                 <em>The starting point<br /></em>
                 Tools and Support listed a lot of mixed functionality and the idea of merging felt unreasonable at first.
               </h2>
@@ -199,18 +199,18 @@ function Seb() {
               </p>
             </div>
           </div>
-          <div class="column-3 gap-medium v-spacing-small order-4 more-tab-col-4">
-            <div class="text-center">
-              <h2 class="text-small">
+          <div className="column-3 gap-medium v-spacing-small order-4 more-tab-col-4">
+            <div className="text-center">
+              <h2 className="text-small">
                 <em>Tools tab pre merge<br /></em>
                 4 new features moved out
               </h2>
             </div>
             <img src={MoreTabToolsDM} />
           </div>
-          <div class="column-3 gap-medium v-spacing-small order-5 more-tab-col-5">
-            <div class="text-center">
-              <h2 class="text-small">
+          <div className="column-3 gap-medium v-spacing-small order-5 more-tab-col-5">
+            <div className="text-center">
+              <h2 className="text-small">
                 <em>Support tab pre merge<br /></em>
                 No features moved
               </h2>
@@ -218,32 +218,32 @@ function Seb() {
             <img src={MoreTabSupportDM} />
           </div>
         </div>
-        {/* <section class="scroll-gallery spaceBetween gap-large">
-          <div class="column-5 order-1 more-tab-col-2">
-            <div class="gradient-container">
-              <div class="text-center">
-                <h2 class="text-small">
+        {/* <section className="scroll-gallery spaceBetween gap-large">
+          <div className="column-5 order-1 more-tab-col-2">
+            <div className="gradient-container">
+              <div className="text-center">
+                <h2 className="text-small">
                   <em>The new tab<br /></em>
                   With clearer sections
                 </h2>
               </div>
-              <div class="column-8">
+              <div className="column-8">
                 <img src={MoreTabHeroDM} />
               </div>
             </div>
           </div>
-          <div class="column-3 gap-medium v-spacing-large order-4 more-tab-col-4">
-              <div class="text-center">
-                <h2 class="text-small">
+          <div className="column-3 gap-medium v-spacing-large order-4 more-tab-col-4">
+              <div className="text-center">
+                <h2 className="text-small">
                   <em>Tools tab pre merge<br /></em>
                   4 new features moved out
                 </h2>
               </div>
               <img src={MoreTabToolsDM} />
             </div>
-            <div class="column-3 gap-medium v-spacing-large order-5 more-tab-col-5">
-              <div class="text-center">
-                <h2 class="text-small">
+            <div className="column-3 gap-medium v-spacing-large order-5 more-tab-col-5">
+              <div className="text-center">
+                <h2 className="text-small">
                   <em>Support tab pre merge<br /></em>
                   No features moved
                 </h2>
@@ -251,12 +251,12 @@ function Seb() {
               <img src={MoreTabSupportDM} />
             </div>
         </section> */}
-        <div class="v-spacing-large flex gap-large spaceBetween no-col-space case-prolong">
-          <div class="column-7" style={{ "min-width": "calc(640px - 14vw)" }}>
+        <div className="v-spacing-large flex gap-large spaceBetween no-col-space case-prolong">
+          <div className="column-7" style={{ "min-width": "calc(640px - 14vw)" }}>
             <img src={ProlongHeroDM} />
           </div>
-          <div class="column-5 v-spacing-small center">
-            <h2 class="text-large">
+          <div className="column-5 v-spacing-small center">
+            <h2 className="text-large">
               <em>Prolong mortgages in the app.<br /></em>
               No more paper waste, no more waiting.
             </h2>
