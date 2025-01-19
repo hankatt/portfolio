@@ -19,7 +19,7 @@ function Home() {
             */}
             <div className="values-message">
               <h1 className="values-title">Experienced designer.<br/> <em>I help companies push what's possible at the intersection of business, technology and design.</em></h1>
-              <h4 className="values-description"><em>The past years I've helped product leaders synthesize and design short term and long term ambitions and visions, set up design systems as an integral way of working and translated brands into products.</em></h4>
+              <h4 className="values-description"><em>The past years I've helped product leaders synthesize and design short term and long term ambitions and visions, set up design systems as an integral way of working and translated brands into accessible products.</em></h4>
             </div>
           </div>
         </div>
