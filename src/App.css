@@ -487,9 +487,11 @@ nav .navigation-link + .navigation-link {
 }
 
 .navigation-link:link {
+  -webkit-font-smoothing: auto;
   text-decoration: underline;
   text-decoration-style: wavy;
   text-decoration-thickness: 1.3px;
+  text-underline-offset: 3px;
   transition: color .166s ease-in-out;
 }
 
