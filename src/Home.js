@@ -18,17 +18,17 @@ function Home() {
             </div>
             */}
             <div className="values-message">
-              <h1 className="values-title">Experienced designer.<br/> <em>I help companies push what's possible at the intersection of business, technology and design.</em></h1>
-              <h4 className="values-description"><em>The past years I've helped product leaders synthesize and design short term and long term ambitions and visions, set up design systems as an integral way of working and translated brands into accessible products.</em></h4>
+              <h1 className="values-title">Experienced product designer.<br/> <em>I help companies push what's possible at the intersection of business, technology and design.</em></h1>
+              <h4 className="values-description"><em>Together with product leaders I synthesize and design ambitions and visions. I leverage design systems to deliver quality at speed. I work with brand to best bring it to life in an accessible way.</em></h4>
             </div>
           </div>
         </div>
         <section className="spaceBetween wrap landing-page-footer">
           <div className="clients current">
             <div className="client">
-              <span className="client-name">currently</span>
+              <span className="client-name current">currently</span>
               <a href="/seb" className="client-name">
-                <div className="client-logo bontouch"></div>
+                <div className="client-logo current bontouch"></div>
               </a>
             </div>
           </div>

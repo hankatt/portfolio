@@ -118,6 +118,10 @@ h1, h2, h3, h4, h5, h6 {
   mix-blend-mode: luminosity;
 }
 
+.client-logo.current {
+  mix-blend-mode: normal;
+}
+
 .client-logo.klarna {
   background: none;
   border-radius: 0;
@@ -618,7 +622,7 @@ em.highlight::before {
 .work-sample.seb:hover .work-sample-label,
 .work-sample.seb:hover .client-name,
 .work-sample.seb:hover .client-duration {
-  color: rgba(255, 255, 255, .4);
+  color: rgba(255, 255, 255, .5);
 }
 
 .work-sample.klarna:hover {
@@ -658,6 +662,10 @@ em.highlight::before {
 .client-name,
 .client-duration {
   color: rgba(255, 255, 255, .6);
+}
+
+.client-name.current {
+  color: rgba(255, 255, 255, .93);
 }
 
 
