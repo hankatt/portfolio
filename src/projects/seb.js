@@ -20,8 +20,8 @@ function Seb() {
             <section className="project-description v-spacing-medium column-6 responsive-resize flex-end">
               <h2 className="text-large">
                 <em>Skandinaviska Enskilda Banken is one of the leading banks
-                in the Nordics region.</em> I worked as a designer and design lead in a 
-                mixed† team.
+                in the Nordics region.</em> On behalf of Bontouch/Framna I worked as a designer and design lead in a 
+                mixed† team with their native app.
               </h2>
               <p className="project-description text-medium">
                 †a team consisting of designers from Bontouch and SEB
