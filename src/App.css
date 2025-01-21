@@ -53,13 +53,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .values-title {
-    font-size: clamp(28px, 3.25vw, 50px);
+    font-size: clamp(30px, 2.55vw, 48px);
     letter-spacing: -.5px;
+    line-height: 1.15;
   }
 
   .values-description {
-    line-height: 1.41414;
-    font-size: clamp(14px, 1.35vw, 20px);
+    line-height: 1.5;
+    font-size: clamp(16px, 1.1vw, 21px);
   }
   
   .values-title + .values-description {
@@ -789,7 +790,7 @@ em.highlight::before {
   .narrative-section .body-text,
   img.inline,
   .work-sample-elevator-pitch {
-    max-width: clamp(400px, 50vw, 682px);
+    max-width: clamp(400px, 40vw, 682px);
   }
 
   .col-half {
@@ -814,7 +815,7 @@ em.highlight::before {
 }
 
 .landing-page-footer {
-  margin-bottom: clamp(0px, 3vw, 55px);
+  margin-bottom: clamp(20px, 3vw, 55px);
   padding-top: 0;
   gap: 15px;
 }
