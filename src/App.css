@@ -1,7 +1,7 @@
 /* Resets */
 
 body:has(.landing-page-expand) {
-  background: black;
+  background: #1A1A1A;
 }
 
 .values-container {
@@ -64,7 +64,26 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .values-title + .values-description {
-    margin-top: clamp(20px, 2.8vw, 25px);
+    margin-top: clamp(20px, 2.8vw, 28px);
+  }
+
+  .button-primary {
+    align-items: center;
+    background: #D9D00025;
+    border-radius: 2px;
+    display: flex;
+    height: calc(39px + clamp(12px, 1.1vw, 25px));
+    justify-content: center;
+    padding: 0 23px;
+    width: fit-content;
+  }
+
+  .button-primary-text {
+    color: #D9D000;
+  }
+
+  .values-description + .button-primary {
+    margin-top: clamp(20px, 2.8vw, 28px);
   }
 
   .mega-title {
