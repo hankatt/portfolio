@@ -1,7 +1,8 @@
 /* Resets */
 
 body:has(.landing-page-expand) {
-  background: #1A1A1A;
+  background: #000;
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(25,25,25,1) 100%);;
 }
 
 .values-container {
