@@ -4,7 +4,8 @@ body:has(.landing-page-expand) {
   background: #000;
 }
 
-.values-container {
+.values-container,
+.landing-page-cases {
   color: rgba(255, 255, 255, .93);
 }
 
@@ -464,7 +465,11 @@ em {
 
 .values-title em,
 .values-description em {
-  color: rgba(255, 255, 255, .666);
+  color: rgba(255, 255, 255, .6);
+}
+
+.landing-page-case em {
+  color: rgba(255, 255, 255, .45);
 }
 
 ul {
@@ -831,6 +836,7 @@ em.highlight::before {
   flex-direction: column;
   flex-grow: 1;
   justify-content: space-between;
+  min-height: 85vh;
 }
 
 .landing-page-footer {

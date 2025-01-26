@@ -1,0 +1,19 @@
+body:has(#work) {
+  background: black;
+  height: auto;
+  color: white;
+}
+
+#header:has(~#work) .navigation-link {
+  text-decoration-color: #D9D000;
+  color: #D9D000;
+}
+
+#header:has(~#work) .navigation-link:visited {
+  color: #9F38FE;
+  text-decoration-color: #9F38FE;
+}
+
+#header:has(~#work) .body-text {
+  color: rgba(255, 255, 255, 1);
+}
