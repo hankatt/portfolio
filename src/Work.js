@@ -6,7 +6,7 @@ function Work() {
     <>
       <div id="work">
         <div className="project-title-container flex flex-col">
-          <h1 className="text-large">selected work</h1>
+          <h1 className="text-large">Selected work</h1>
         </div>
         <section className="landing-page-cases v-spacing-medium flex flex-col">
           <div className="cases-row">
@@ -18,10 +18,10 @@ function Work() {
                   SEB
                 </h3>
                 <p className="text-medium">
-                  <em>Evolved role of design as we doubled in size.</em>
+                  <em>Helping design look ahead.</em>
                 </p>
                 <p className="text-medium">
-                  A leading bank in the Nordics region. I worked with their native app as a designer and design lead. I worked with the team as we doubled in size, visions for the future and a few features that are live today.
+                  A leading bank in the Nordics region. I worked with their native app through a transformative time. I focused on discovery work, the design team and a few features that are live today.
                 </p>
                 <p className="text-medium">
                   <em>
@@ -42,7 +42,7 @@ function Work() {
                     <a href="/klarna-mp-ui">Klarna</a>
                   </h3>
                   <p className="text-medium">
-                    <em>From less than 10 designers to the 100's.</em>
+                    <em>From 10-ish designers to the 100's, and 2 rebrandings.</em>
                   </p>
                   <p className="text-medium">
                     <ul>
