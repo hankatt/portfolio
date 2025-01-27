@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .values-title {
-    font-size: clamp(30px, 2.55vw, 48px);
+    font-size: clamp(26px, 2.55vw, 40px);
     letter-spacing: -.5px;
     line-height: 1.15;
   }
@@ -327,7 +327,7 @@ section > img {
 }
 
 .project-title-container {
-  margin-top: 130px;
+  padding-top: clamp(50px, 5vw, 120px);
 }
 
 .project-description {

@@ -8,21 +8,21 @@ function Work() {
         <div className="project-title-container flex flex-col">
           <h1 className="text-large">selected work</h1>
         </div>
-        <section className="landing-page-cases v-spacing-small flex flex-col">
-          <div className="flex v-spacing-small" style={{ "gap": "30px", "marginBottom": 180 }}>
+        <section className="landing-page-cases v-spacing-medium flex flex-col">
+          <div className="cases-row">
             <a href="/seb" style={{ "width": "100%" }}>
-              <div className="landing-page-case" style={{
-                "width": "100%",
-                "padding": "40px",
-                "background": "#111",
-                "boxSizing": "border-box"
-                //  "background": "linear-gradient(0deg, rgba(37, 39, 44, 0.4) 4.22%, rgba(39, 40, 42, 0.4) 19.09%, rgba(50, 52, 54, 0.4) 50.32%, rgba(52, 54, 56, 0.4) 73.31%, rgba(44, 45, 49, 0.4) 95.54%)",
-              }}>
+              <div className="landing-page-case">
               <div className="flex spaceBetween">
                 <div className="flex flex-col">
                 <h3 className="text-large">
                   SEB
                 </h3>
+                <p className="text-medium">
+                  <em>Evolved role of design as we doubled in size.</em>
+                </p>
+                <p className="text-medium">
+                  A leading bank in the Nordics region. I worked with their native app as a designer and design lead. I worked with the team as we doubled in size, visions for the future and a few features that are live today.
+                </p>
                 <p className="text-medium">
                   <em>
                     #b2c #vision #discovery #designlead #teambuilding #designsystem #ui #ux
@@ -35,18 +35,22 @@ function Work() {
             </div>
           </a>
           <a href="/klarna-mp-ui" style={{ "width": "100%" }}>
-            <div className="landing-page-case" style={{
-              "width": "100%",
-              "padding": "40px",
-              "background": "#090909",
-              "boxSizing": "border-box"
-              // "background": "linear-gradient(0deg, rgba(37, 39, 44, 0.4) 4.22%, rgba(39, 40, 42, 0.4) 19.09%, rgba(50, 52, 54, 0.4) 50.32%, rgba(52, 54, 56, 0.4) 73.31%, rgba(44, 45, 49, 0.4) 95.54%)",
-            }}>
+            <div className="landing-page-case">
               <div className="flex spaceBetween">
                 <div className="flex flex-col">
                   <h3 className="text-large">
                     <a href="/klarna-mp-ui">Klarna</a>
                   </h3>
+                  <p className="text-medium">
+                    <em>From less than 10 designers to the 100's.</em>
+                  </p>
+                  <p className="text-medium">
+                    <ul>
+                      <li>First designs for the Shopping app, working closely with the Directors and C-suite.</li>
+                      <li>1 of 3 designers in the Design Systems team. Got my own Design Systems team.</li>
+                      <li>Built Merchant Portal from a simple order management tool to an everything-a-merchant-needs portal made up of 15+ teams.</li>
+                    </ul>
+                  </p>
                   <p className="text-medium">
                     <em>
                       #b2b #b2c #vision #designdirection #designsystem #scalingdesign #programming #react
