@@ -836,7 +836,7 @@ em.highlight::before {
   flex-direction: column;
   flex-grow: 1;
   justify-content: space-between;
-  min-height: 85vh;
+  min-height: 70vh;
 }
 
 .landing-page-footer {
