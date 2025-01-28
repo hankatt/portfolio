@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .values-title {
     font-size: clamp(26px, 2.55vw, 40px);
-    letter-spacing: -.5px;
+    letter-spacing: -.25px;
     line-height: 1.15;
   }
 
@@ -511,8 +511,8 @@ img + .body-text {
 
 /* Landing page Navigation layout */
 
-nav .navigation-link + .navigation-link {
-    margin-left: clamp(12px, 1.5vw, 24px);
+.navigation-link + .navigation-link {
+    margin-left: clamp(18px, 1.5vw, 30px);
 }
 
 .navigation-link:link {

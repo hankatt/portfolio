@@ -10,7 +10,10 @@ function Header() {
         <a href="about.html" className="navigation-link">Contact</a>
         </nav> */}
         <a href="/" title="Home"><h1 className="body-text">henrik wiberg</h1></a>
-        <a href="https://www.linkedin.com/in/hewiberg" className="navigation-link" target="_blank">linkedin</a>
+        <div className="flex">
+          <a href="/work" className="navigation-link" target="_blank">work</a>
+          <a href="https://www.linkedin.com/in/hewiberg" className="navigation-link" target="_blank">linkedin</a>
+        </div>        
       </div>
     </>
   );

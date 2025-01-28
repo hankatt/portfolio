@@ -251,7 +251,7 @@ function Seb() {
               <img src={MoreTabSupportDM} />
             </div>
         </section> */}
-        <div className="v-spacing-large flex gap-large spaceBetween no-col-space case-prolong">
+        {/* <div className="v-spacing-large flex gap-large spaceBetween no-col-space case-prolong">
           <div className="column-7" style={{ "min-width": "calc(640px - 14vw)" }}>
             <img src={ProlongHeroDM} />
           </div>
@@ -267,7 +267,7 @@ function Seb() {
               New design elements were introduced with the design system in mind, meaning they were designed to be reusable and add value in several parts of the app, in an incremental way.
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="section-title-container v-spacing-xlarge margin-center">
           <p className="text-small text-center medium-eyebrow-spacing">Part III</p>
           <p className="section-introduction subtitle-text">
