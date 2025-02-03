@@ -18,8 +18,8 @@ function Home() {
             </div>
             */}
             <div className="values-message">
-              <h1 className="values-title">Senior designer <em>helping companies navigate the intersection of business, technology and design.</em></h1>
-              <h4 className="values-description"><em>I support product leaders from discovery to design, whether it's small features or big visions. I make design systems to deliver quality at speed. I translate brands into beautiful and accessible products .</em></h4>
+              <h1 className="values-title">Senior designer,<br/><em>helping companies navigate the intersection of business, technology and design.</em></h1>
+              <h4 className="values-description"><em>I support product leaders from discovery to design. I build design systems to deliver quality at speed. I translate brands into accessible products.</em></h4>
               {/* <div className="button-primary">
                 <h4 className="values-description button-primary-text">View some of my work</h4>
               </div> */}
