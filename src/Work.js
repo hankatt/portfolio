@@ -13,8 +13,8 @@ function Work() {
         </div>
         <section className="landing-page-cases v-spacing-medium flex flex-col">
           <div className="cases-row">
-            <a href="/seb" className="landing-page-case">
-              <p className="text-right">2021–2023</p>
+            <a href="/seb" className="landing-page-case seb">
+              <p className="text-right text-medium">2021–2023</p>
               <img className="case-image" src={CaseImageSEB} alt="3 images of SEB app" />
               <div className="case-title flex align-baseline" style={{ "column-gap": 8 }}>
                 <h1 className="text-xlarge">SEB</h1>  
@@ -32,7 +32,7 @@ function Work() {
                 <img className="case-image" src={CaseImageKlarna} alt="3 images of Klarna's Merchant Portal" />
                 <div className="case-title flex align-baseline" style={{ "column-gap": 8 }}>
                   <h1 className="text-xlarge">Klarna</h1>  
-                  <h3><em>merchant portal</em></h3>
+                  <h3><em>Merchant portal</em></h3>
                 </div>  
                 <p className="text-medium">
                   <em>From regional BNPL to global behemoth.</em>
