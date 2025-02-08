@@ -1,16 +1,61 @@
 import './App.css';
 import './Work.css'
+import CaseImageSEB from './img/case-image-seb.png'
+import CaseImageKlarna from './img/case-image-klarna-mp.png'
+import CaseImageEttui from './img/case-image-ettui.png'
 
 function Work() {
   return (
     <>
       <div id="work">
         <div className="project-title-container flex flex-col">
-          <h1 className="text-large">Selected work</h1>
+          <h1 className="text-large">selected work</h1>
         </div>
         <section className="landing-page-cases v-spacing-medium flex flex-col">
           <div className="cases-row">
-            <a href="/seb" style={{ "width": "100%" }}>
+            <a href="/seb" className="landing-page-case">
+              <p className="text-right">2021–2023</p>
+              <img className="case-image" src={CaseImageSEB} alt="3 images of SEB app" />
+              <div className="case-title flex align-baseline" style={{ "column-gap": 8 }}>
+                <h1 className="text-xlarge">SEB</h1>  
+                <h3><em>iOS & Android app</em></h3>
+              </div>  
+              <p className="text-medium">
+                <em>A leading bank in the nordics region.</em>
+              </p>
+              <p className="text-medium">
+                <em>#b2c #vision #discovery #designlead #teambuilding #designsystem #ui #ux</em>
+              </p>
+            </a>
+            <a href="/klarna-mp-ui" className="landing-page-case">
+                <p className="text-right">2016, 2019–2021</p>
+                <img className="case-image" src={CaseImageKlarna} alt="3 images of Klarna's Merchant Portal" />
+                <div className="case-title flex align-baseline" style={{ "column-gap": 8 }}>
+                  <h1 className="text-xlarge">Klarna</h1>  
+                  <h3><em>merchant portal</em></h3>
+                </div>  
+                <p className="text-medium">
+                  <em>From regional BNPL to global behemoth.</em>
+                </p>
+                <p className="text-medium">
+                  <em>#b2b #b2c #vision #designdirection #designsystem #scalingdesign #programming #react</em>
+                </p>
+            </a>
+            <div className="landing-page-case">
+                <p className="text-right">2012–2015</p>
+                <img className="case-image" src={CaseImageEttui} alt="2 images of ettúi app" />
+                <div className="case-title flex align-baseline" style={{ "column-gap": 8 }}>
+                  <h1 className="text-xlarge">ettúi</h1>  
+                  <h3><em>personal</em></h3>
+                </div>  
+                <p className="text-medium">
+                  <em>Self-made Pinterest-for-Text.</em>
+                </p>
+                <p className="text-medium">
+                  <em>#everything, from database to design</em>
+                </p>
+            </div>
+            {/* <a href="/seb" style={{ "width": "100%" }}>
               <div className="landing-page-case">
               <div className="flex spaceBetween">
                 <div className="flex flex-col">
@@ -60,7 +105,7 @@ function Work() {
                 <p className="text-medium" style={{ "whiteSpace": "nowrap", "transform": "translateY(7px)" }}><em>2016–2021</em></p>
               </div>
             </div>
-          </a>
+          </a> */}
           </div>
         </section>
       </div>

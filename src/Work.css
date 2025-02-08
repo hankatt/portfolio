@@ -21,21 +21,36 @@ body:has(#work) {
 .cases-row {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: clamp(30px, 2.5vw, 50px);
   margin-bottom: 180px;
   @media (min-width: 1024px) {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
 .landing-page-case {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
   padding: 40px;
   box-sizing: border-box;
   background: #111;
-  transition: all .15s ease-out;
+  transition: all .25s ease-out;
   box-shadow: 0 0 0 rgba(255, 255, 255, 0);
   position: relative;
+  width: 100%;
+  @media (min-width: 1024px) {
+    max-width: calc(50% - calc(clamp(30px, 2.5vw, 50px)/2));
+  }
+}
+
+.case-image,
+.case-image + div {
+  margin-top: 20px;
+}
+
+.landing-page-case em {
+  color: rgba(255, 255, 255, .6);
 }
 
 /* .landing-page-case:after {
@@ -50,6 +65,7 @@ body:has(#work) {
 } */
 
 .landing-page-case:hover {
-  background: #131313;
+  background: #151515;
   box-shadow: 0 1px 10px rgba(250, 250, 253, .1);
+  transform: translateY(-1px);
 }

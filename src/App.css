@@ -207,7 +207,6 @@ section > img {
 
 .justify-right {
   justify-self: right;
-  display: flex;
 }
 
 .spaceBetween {
@@ -228,6 +227,10 @@ section > img {
 
 .align-center {
   align-items: center;
+}
+
+.align-baseline {
+  align-items: baseline;
 }
 
 .row.no-gap {
@@ -694,16 +697,13 @@ em.highlight::before {
 }
 
 
-* + .work-sample-elevator-pitch {
+* + .work-sample-elevator-pitch,
+.work-sample-elevator-pitch p + p {
   margin-top: 10px;
 }
 
 .work-sample-elevator-pitch p {
   line-height: 1.5;
-}
-
-.work-sample-elevator-pitch p + p {
-  margin-top: 10px; 
 }
 
 .client-details {
@@ -764,6 +764,7 @@ em.highlight::before {
 
 .section-highlights > h1 + .text-medium,
 .section-highlights > .text-medium + .text-medium,
+.case-title + .text-medium,
 .text-large + .text-medium,
 .text-medium + .text-medium,
 .text-large + .text-small,
@@ -778,6 +779,10 @@ em.highlight::before {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-xlarge + .text-medium,
