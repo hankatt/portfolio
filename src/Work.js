@@ -28,7 +28,7 @@ function Work() {
               </p>
             </a>
             <a href="/klarna-mp-ui" className="landing-page-case">
-                <p className="text-right">2016, 2019–2021</p>
+                <p className="text-right text-medium">2016, 2019–2021</p>
                 <img className="case-image" src={CaseImageKlarna} alt="3 images of Klarna's Merchant Portal" />
                 <div className="case-title flex align-baseline" style={{ "column-gap": 8 }}>
                   <h1 className="text-xlarge">Klarna</h1>  
@@ -42,7 +42,7 @@ function Work() {
                 </p>
             </a>
             <div className="landing-page-case">
-                <p className="text-right">2012–2015</p>
+                <p className="text-right text-medium">2012–2015</p>
                 <img className="case-image" src={CaseImageEttui} alt="2 images of ettúi app" />
                 <div className="case-title flex align-baseline" style={{ "column-gap": 8 }}>
                   <h1 className="text-xlarge">ettúi</h1>  
