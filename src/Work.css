@@ -55,11 +55,11 @@ body:has(#work) {
 }
 
 .landing-page-case.seb .case-image {
-  transform: scale(1.1) translateY(6px);
+  transform: scale(1.05) translateY(9px);
 }
 
 .landing-page-case.seb:hover .case-image {
-  transform: scale(1.14) translateY(3px);
+  transform: scale(1.1) translateY(6px);
 }
 
 .landing-page-case:hover .case-image {
@@ -89,6 +89,6 @@ body:has(#work) {
   background: #000;
 }
 
-.landing-page-case:hover > p:first-of-type {
+.landing-page-case:hover > div p {
   color: rgba(255, 255, 255, .6);
 }
