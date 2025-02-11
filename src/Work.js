@@ -3,6 +3,7 @@ import './Work.css'
 import CaseImageSEB from './img/case-image-seb.png'
 import CaseImageKlarna from './img/case-image-klarna-mp.png'
 import CaseImageEttui from './img/case-image-ettui.png'
+import CaseImageVolvoCars from './img/case-image-volvo-cars.png'
 
 function Work() {
   return (
@@ -20,13 +21,13 @@ function Work() {
               <img className="case-image" src={CaseImageSEB} alt="3 images of SEB app" />
               <div className="case-title flex align-baseline" style={{ "column-gap": 8 }}>
                 <h1 className="text-xlarge">SEB</h1>  
-                <h3><em>iOS & Android app</em></h3>
+                <h2 className="text-medium"><em>iOS & Android app</em></h2>
               </div>  
               <p className="text-medium">
                 <em>A leading bank in the nordics region.</em>
               </p>
-              <p className="text-medium">
-                <em>#b2c #vision #discovery #designlead #teambuilding #designsystem #ui #ux</em>
+              <p className="text-small">
+                <em>#consumerapp #vision #discovery #designlead #teambuilding #designsystem #ui #ux</em>
               </p>
             </a>
             <a href="/klarna-mp-ui" className="landing-page-case">
@@ -36,13 +37,13 @@ function Work() {
                 <img className="case-image" src={CaseImageKlarna} alt="3 images of Klarna's Merchant Portal" />
                 <div className="case-title flex align-baseline" style={{ "column-gap": 8 }}>
                   <h1 className="text-xlarge">Klarna</h1>  
-                  <h3><em>Merchant portal</em></h3>
+                  <h2 className="text-medium"><em>Merchant Portal</em></h2>
                 </div>  
                 <p className="text-medium">
                   <em>From regional BNPL to global behemoth.</em>
                 </p>
-                <p className="text-medium">
-                  <em>#b2b #b2c #vision #designdirection #designsystem #scalingdesign #programming #react</em>
+                <p className="text-small">
+                  <em>#b2b #vision #productdesign #visualdesign #designsystem #scalingteams #programming #react</em>
                 </p>
             </a>
             <a href="http://www.ettui.com" target="_blank" rel="noopener" className="landing-page-case">
@@ -52,13 +53,26 @@ function Work() {
                 <img className="case-image" src={CaseImageEttui} alt="2 images of ettúi app" />
                 <div className="case-title flex align-baseline" style={{ "column-gap": 8 }}>
                   <h1 className="text-xlarge">ettúi</h1>  
-                  <h3><em>personal</em></h3>
+                  <h2 className="text-medium"><em>personal</em></h2>
                 </div>  
                 <p className="text-medium">
                   <em>Self-made Pinterest-for-Text.</em>
                 </p>
-                <p className="text-medium">
+                <p className="text-small">
                   <em>#everything, from database to design</em>
+                </p>
+            </a>
+            <a href="#!" rel="noopener" className="landing-page-case">
+                <p className="text-right text-medium">2015</p>
+                <img className="case-image" src={CaseImageVolvoCars} alt="2 images of ettúi app" />
+                <div className="case-title flex align-baseline" style={{ "column-gap": 8 }}>
+                  <h1 className="text-xlarge">Volvo Cars</h1>  
+                </div>  
+                <p className="text-medium">
+                  <em>I worked as a Visual designer at R/GA, where we designed Volvo Cars global website.</em>
+                </p>
+                <p className="text-small">
+                  <em>#visualdesign</em>
                 </p>
             </a>
             {/* <a href="/seb" style={{ "width": "100%" }}>
