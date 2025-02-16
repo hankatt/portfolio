@@ -1,0 +1,56 @@
+#volvo .mega-title,
+#volvo .text-large > em,
+#volvo .text-medium > em,
+#volvo .section-title > em,
+#volvo .subtitle-text > em,
+#volvo .text-xlarge > em,
+#volvo .text-small > em
+{
+  color: rgba(0, 0, 0, 1);
+}
+
+#volvo .text-large,
+#volvo .text-medium,
+#volvo .text-small,
+#volvo .faded,
+#volvo .section-title,
+#volvo .subtitle-text,
+#volvo .text-xlarge {
+  color: rgba(0, 0, 0, .6);
+}
+
+.section-hero {
+  box-sizing: border-box;
+  @media (min-width: 768px) {
+    padding: clamp(10px, 3vw, 50px);
+    border: solid .5px #ccc;
+  }
+}
+
+.section-hero img {
+  width: 100%;
+}
+
+.section-scroll {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(10px, 3vw, 50px);
+  padding-left: clamp(10px, 3vw, 50px);
+  padding-right: clamp(10px, 3vw, 50px);
+}
+
+.section-scroll img {
+  width: calc(100% - clamp(10px, 3vw, 50px));
+  margin: 0 auto;
+
+  
+  @media (min-width: 768px) {
+    width: calc(50% - clamp(20px, 7vw, 120px)/2);
+    object-fit: contain;
+    object-position: top;
+  }
+}
+
+img.ar-3 {
+  aspect-ratio: 1.49;
+}

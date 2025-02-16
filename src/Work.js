@@ -62,14 +62,14 @@ function Work() {
                   <em>#everything, from database to design</em>
                 </p>
             </a>
-            <a href="#!" rel="noopener" className="landing-page-case">
+            <a href="/volvo" rel="noopener" className="landing-page-case">
                 <p className="text-right text-medium">2015</p>
                 <img className="case-image" src={CaseImageVolvoCars} alt="2 images of ettúi app" />
                 <div className="case-title flex align-baseline" style={{ "column-gap": 8 }}>
                   <h1 className="text-xlarge">Volvo Cars</h1>  
                 </div>  
                 <p className="text-medium">
-                  <em>I worked as a Visual designer at R/GA, where we designed Volvo Cars global website.</em>
+                  <em>As a Visual designer at R/GA I worked with the global Volvo Cars .com site.</em>
                 </p>
                 <p className="text-small">
                   <em>#visualdesign</em>

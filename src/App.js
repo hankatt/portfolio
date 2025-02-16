@@ -1,6 +1,7 @@
 import './App.css';
 import KlarnaMPUI from './projects/klarna-mp-ui'
 import Seb from './projects/seb'
+import Volvo from './projects/volvo'
 import Home from './Home'
 import Work from './Work'
 import Header from './shell/Header'
@@ -21,6 +22,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/klarna-mp-ui" element={<KlarnaMPUI />} />
             <Route path="/seb" element={<Seb />} />
+            <Route path="/volvo" element={<Volvo />} />
             <Route path="/work" element={<Work />} />
           </Routes>
         </Router>

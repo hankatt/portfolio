@@ -798,6 +798,20 @@ em.highlight::before {
   margin: 0 auto;
 }
 
+.hero-scroll {
+  display: flex;
+  gap: clamp(20px, 7vw, 120px);
+  align-items: flex-start;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.hero-scroll img {
+  /* width: calc(100vw - 6*clamp(20px, 7vw, 120px)); */
+  width: calc(100% - 2* clamp(20px, 7vw, 120px));
+  object-fit: contain;
+}
+
 /* Landing page Section layout */
 
 @media screen and (min-width: 280px) {
